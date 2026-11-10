@@ -1,0 +1,338 @@
+{
+  "meta": {
+    "title": "Station de lavage 24 h/24 à Camon, près d'Amiens | Autonet 80",
+    "description": "Station de lavage auto ouverte 24 h/24, 7 j/7 à Camon, à 10 minutes d'Amiens : haute pression, brosse, aspirateurs, lavage des tapis. 4,5/5 sur Google.",
+    "ogAlt": "Autonet 80, station de lavage 24 h/24 à Camon"
+  },
+  "nav": {
+    "services": "Services",
+    "prix": "Prix",
+    "pros": "Professionnels",
+    "infos": "Infos",
+    "itineraire": "Itinéraire",
+    "call": "Appeler",
+    "contact": "Nous écrire",
+    "lang": "Langue",
+    "menu": "Menu",
+    "close": "Fermer le menu",
+    "home": "Autonet 80, accueil",
+    "skip": "Aller au contenu"
+  },
+  "intro": {
+    "skip": "Passer"
+  },
+  "announce": {
+    "close": "Fermer le bandeau"
+  },
+  "status": {
+    "always": "Ouvert maintenant, 24 h/24",
+    "open": "Ouvert maintenant",
+    "until": "jusqu'à {time}",
+    "closed": "Fermé",
+    "reopens": "réouverture {day} à {time}",
+    "today": "aujourd'hui",
+    "tomorrow": "demain"
+  },
+  "days": [
+    "dimanche",
+    "lundi",
+    "mardi",
+    "mercredi",
+    "jeudi",
+    "vendredi",
+    "samedi"
+  ],
+  "rating": {
+    "label": "{value}/5 sur Google",
+    "count": "{count} avis",
+    "asOf": "Note Google relevée en {date}"
+  },
+  "slot": {
+    "todo": "Photo à venir",
+    "hero": "La station, de nuit",
+    "facade": "L'entrée de la station",
+    "pistes": "Les pistes de lavage",
+    "aspirateurs": "Les aspirateurs",
+    "tapis": "La machine à tapis",
+    "produits": "Le distributeur",
+    "equipe": "L'équipe"
+  },
+  "hero": {
+    "eyebrow": "Station de lavage · 24 h/24 · Camon",
+    "title": "Une voiture propre, à toute heure.",
+    "lead": "Haute pression, brosse, aspirateurs et machine à tapis, en libre-service jour et nuit, à dix minutes du centre d'Amiens.",
+    "itineraire": "Itinéraire",
+    "prix": "Voir les prix"
+  },
+  "tiles": {
+    "eyebrow": "Sur place",
+    "title": "Tout pour laver dedans comme dehors",
+    "from": "à partir de {price}",
+    "tbc": "Prix à confirmer",
+    "confirm": "Équipement à confirmer",
+    "items": {
+      "hp": {
+        "title": "Haute pression",
+        "text": "Prélavage, lavage et rinçage au jet, sur des pistes larges."
+      },
+      "rouleaux": {
+        "title": "Rouleaux",
+        "text": "Un lavage automatique quand vous êtes pressé, sans sortir le jet."
+      },
+      "aspi": {
+        "title": "Aspirateurs",
+        "text": "Puissants, avec des embouts pour les sièges et les recoins."
+      },
+      "tapis": {
+        "title": "Lavage des tapis",
+        "text": "La machine brosse et rince vos tapis en caoutchouc ou en moquette."
+      },
+      "produits": {
+        "title": "Produits",
+        "text": "Microfibres, lingettes et désodorisants au distributeur."
+      },
+      "pros": {
+        "title": "Pros et flottes",
+        "text": "Utilitaires, taxis, VTC, auto-écoles : parlons de vos véhicules."
+      }
+    }
+  },
+  "strip": {
+    "label": "Les essentiels",
+    "items": [
+      {
+        "title": "24 h/24",
+        "text": "Lavez tôt le matin, le soir ou en pleine nuit."
+      },
+      {
+        "title": "7 j/7",
+        "text": "Dimanches et jours fériés compris."
+      },
+      {
+        "title": "Paiement CB",
+        "text": "Carte bancaire et pièces, sans rendez-vous. À confirmer."
+      },
+      {
+        "title": "Grandes pistes",
+        "text": "Assez de place pour les SUV et les utilitaires."
+      }
+    ]
+  },
+  "prix": {
+    "eyebrow": "Prix",
+    "title": "Des prix clairs, affichés avant de laver",
+    "lead": "En libre-service, vous payez le temps que vous utilisez. Les montants ci-dessous sont ceux affichés sur les bornes.",
+    "head": {
+      "programme": "Programme",
+      "duree": "Durée",
+      "prix": "Prix"
+    },
+    "from": "à partir de {price}",
+    "price": "{price}",
+    "tbc": "Prix à confirmer",
+    "dash": "—",
+    "note": "Prix TTC relevés le {date}. En cas d'écart, le tarif affiché sur la borne fait foi.",
+    "compare": {
+      "eyebrow": "Formules",
+      "title": "Trois façons de laver",
+      "lead": "Pas de forfait à acheter : ce sont des repères pour savoir quoi enchaîner et combien de temps prévoir.",
+      "popular": "Le plus choisi",
+      "duration": "Durée",
+      "budget": "Budget",
+      "cta": "Itinéraire",
+      "notIncluded": "non inclus"
+    }
+  },
+  "blocks": {
+    "hp": {
+      "eyebrow": "Carrosserie",
+      "title": "La haute pression, sans rien laisser au hasard",
+      "text": "Prélavage pour décoller la boue et les insectes, brosse moussante pour la carrosserie, rinçage à fond. Les machines sont réglées pour un jet puissant et régulier, et les pistes sont assez larges pour tourner autour de la voiture.",
+      "cta": "Voir les prix"
+    },
+    "interieur": {
+      "eyebrow": "Habitacle",
+      "title": "L'intérieur aussi : aspirateurs et tapis",
+      "text": "Des aspirateurs qui aspirent vraiment, et une machine qui rend aux tapis leur couleur d'origine en une minute. Pratique avant un long trajet, après la plage ou à la fin de l'hiver.",
+      "cta": "Itinéraire"
+    },
+    "pros": {
+      "eyebrow": "Professionnels",
+      "title": "Pour les flottes et les utilitaires",
+      "text": "Artisans, sociétés de location, taxis, VTC, auto-écoles : vos véhicules doivent rester présentables. Écrivez-nous le nombre de véhicules et la fréquence de lavage, on vous répond avec une proposition adaptée.",
+      "cta": "Nous contacter"
+    }
+  },
+  "reviews": {
+    "eyebrow": "Avis Google",
+    "title": "Ce que nos clients remarquent",
+    "themes": [
+      "Les prix",
+      "La qualité du lavage",
+      "La brosse",
+      "Les machines",
+      "Les tapis",
+      "La haute pression"
+    ],
+    "soon": "Les avis de nos clients seront publiés ici, avec leur accord.",
+    "cta": "Lire les avis sur Google"
+  },
+  "infos": {
+    "eyebrow": "Infos pratiques",
+    "title": "Venir à la station",
+    "address": "Adresse",
+    "hours": "Horaires",
+    "always": "Tous les jours, 24 h/24",
+    "closures": "Fermetures annoncées",
+    "access": "Accès et stationnement",
+    "accessText": "Dans la zone d'activités de Camon, à l'est d'Amiens. Accès direct en voiture, places d'attente devant les pistes et emplacements dédiés aux aspirateurs.",
+    "phone": "Téléphone",
+    "whatsapp": "WhatsApp",
+    "mapTitle": "Carte : Autonet 80, 424 rue Édouard Branly à Camon",
+    "directions": "Itinéraire"
+  },
+  "faq": {
+    "eyebrow": "Questions fréquentes",
+    "title": "Avant de venir",
+    "items": [
+      {
+        "q": "La station est-elle vraiment ouverte la nuit ?",
+        "a": "Oui, Autonet 80 est en libre-service 24 h/24 et 7 j/7, dimanches et jours fériés compris. Si une piste est fermée pour entretien, nous l'annonçons en haut de ce site."
+      },
+      {
+        "q": "Comment paie-t-on ?",
+        "a": "Directement à la borne, sans rendez-vous. La carte bancaire et les pièces sont acceptées (à confirmer). Le tarif est affiché sur chaque borne avant le lancement."
+      },
+      {
+        "q": "Combien de temps faut-il prévoir ?",
+        "a": "Comptez environ 5 minutes pour un passage rapide à la haute pression, 15 minutes pour un lavage complet avec aspirateur, et 25 minutes si vous lavez aussi les tapis."
+      },
+      {
+        "q": "Peut-on laver un utilitaire ou un camping-car ?",
+        "a": "Les pistes sont larges et conviennent aux SUV et aux utilitaires. Pour un véhicule haut ou très long, appelez-nous avant de venir : nous vous dirons quelle piste utiliser."
+      },
+      {
+        "q": "Une machine ne fonctionne pas, que faire ?",
+        "a": "Signalez-le en un clic avec le formulaire de contact (motif « Panne d'une machine ») ou par WhatsApp, en précisant la piste ou la borne. Nous intervenons au plus vite."
+      },
+      {
+        "q": "Proposez-vous des tarifs pour les professionnels ?",
+        "a": "Oui, pour les entreprises qui lavent régulièrement plusieurs véhicules. Indiquez-nous votre flotte et la fréquence souhaitée, nous vous faisons une proposition (offre à confirmer)."
+      }
+    ]
+  },
+  "contact": {
+    "eyebrow": "Contact",
+    "title": "Une question, une panne, une flotte ?",
+    "lead": "Votre message part sur WhatsApp, bien présenté. Pour une urgence, appelez directement.",
+    "motif": "Motif",
+    "motifs": {
+      "question": "Une question",
+      "panne": "Panne d'une machine",
+      "pros": "Professionnels et flottes"
+    },
+    "machine": "Quelle machine ?",
+    "machinePlaceholder": "Ex. : piste 2, aspirateur de gauche, monnayeur…",
+    "fleet": "Nombre de véhicules",
+    "fleetPlaceholder": "Ex. : 6 utilitaires",
+    "message": "Message",
+    "messagePlaceholder": "Décrivez votre demande en quelques mots.",
+    "name": "Nom",
+    "phone": "Téléphone",
+    "send": "Envoyer sur WhatsApp",
+    "call": "Appeler",
+    "required": "Champ obligatoire",
+    "phoneInvalid": "Numéro de téléphone incomplet",
+    "sent": "WhatsApp s'est ouvert avec votre message. Il ne reste plus qu'à l'envoyer.",
+    "privacy": "Vos coordonnées servent uniquement à vous répondre.",
+    "wa": {
+      "title": "Demande depuis le site Autonet 80",
+      "motif": "Motif",
+      "machine": "Machine",
+      "fleet": "Véhicules",
+      "message": "Message",
+      "name": "Nom",
+      "phone": "Téléphone"
+    }
+  },
+  "footer": {
+    "tagline": "Station de lavage en libre-service, ouverte 24 h/24 à Camon, près d'Amiens.",
+    "visit": "La station",
+    "contact": "Contact",
+    "pages": "À découvrir",
+    "legal": "Mentions légales",
+    "rights": "Tous droits réservés.",
+    "by": "by ABCD Lavage"
+  },
+  "pages": {
+    "camon": {
+      "slugLabel": "Station de lavage à Camon",
+      "metaTitle": "Station de lavage à Camon (80450) | Autonet 80",
+      "metaDescription": "Autonet 80, la station de lavage auto de Camon : haute pression, brosse, aspirateurs, machine à tapis. Ouvert 24 h/24, 424 rue Édouard Branly.",
+      "eyebrow": "Camon · 80450",
+      "h1": "Station de lavage à Camon",
+      "intro": "Autonet 80 est la station de lavage en libre-service de Camon, rue Édouard Branly. Vous lavez vous-même, à votre rythme, avec des machines entretenues et des prix affichés.",
+      "sections": [
+        {
+          "h": "Ce que vous trouvez sur place",
+          "p": "Des pistes de lavage haute pression avec prélavage, brosse moussante et rinçage, des aspirateurs puissants, une machine à laver les tapis et un distributeur de produits d'entretien."
+        },
+        {
+          "h": "Facile d'accès depuis Camon et Rivery",
+          "p": "La station se trouve dans la zone d'activités de Camon, avec un accès direct en voiture. Les pistes sont larges, et les aspirateurs ont leurs propres emplacements pour ne pas bloquer ceux qui lavent."
+        },
+        {
+          "h": "Ouverte à toute heure",
+          "p": "Pas d'horaires à retenir : la station est ouverte 24 h/24 et 7 j/7. Le soir et tôt le matin, il y a rarement de l'attente."
+        }
+      ]
+    },
+    "h24": {
+      "slugLabel": "Lavage 24 h/24 près d'Amiens",
+      "metaTitle": "Lavage voiture 24 h/24 près d'Amiens | Autonet 80",
+      "metaDescription": "Lavage auto haute pression ouvert 24 h/24 et 7 j/7 près d'Amiens, à Camon. Aspirateurs, tapis, brosse. 4,5/5 sur Google, 91 avis.",
+      "eyebrow": "Amiens · 24 h/24",
+      "h1": "Lavage voiture 24 h/24 près d'Amiens",
+      "intro": "Besoin de laver votre voiture tard le soir ou un dimanche matin ? Autonet 80, à Camon, est ouverte jour et nuit, à une dizaine de minutes du centre d'Amiens.",
+      "sections": [
+        {
+          "h": "Lavage haute pression à toute heure",
+          "p": "Prélavage, lavage et rinçage au jet, brosse moussante : vous enchaînez les programmes comme vous le souhaitez, et vous ne payez que le temps utilisé."
+        },
+        {
+          "h": "Depuis Amiens",
+          "p": "Depuis le centre d'Amiens, prenez la direction de Camon par l'est de la ville. La station est au 424 rue Édouard Branly, dans la zone d'activités."
+        },
+        {
+          "h": "Un souci avec une machine ?",
+          "p": "Même la nuit, vous pouvez nous signaler une panne en un clic sur WhatsApp. Le message nous arrive avec la piste ou la borne concernée."
+        }
+      ]
+    },
+    "contact": {
+      "slugLabel": "Contact",
+      "metaTitle": "Contact, panne ou demande pro | Autonet 80, Camon",
+      "metaDescription": "Une question, une machine en panne ou une flotte de véhicules à laver ? Écrivez à Autonet 80 sur WhatsApp ou appelez le 07 84 76 96 04."
+    },
+    "legal": {
+      "slugLabel": "Mentions légales",
+      "metaTitle": "Mentions légales | Autonet 80",
+      "metaDescription": "Mentions légales du site Autonet 80, station de lavage à Camon.",
+      "h1": "Mentions légales",
+      "editor": "Éditeur",
+      "host": "Hébergement",
+      "data": "Données personnelles",
+      "dataText": "Le formulaire de contact n'enregistre rien sur ce site : il prépare un message que vous envoyez vous-même sur WhatsApp. Vos coordonnées servent uniquement à vous répondre. Aucun cookie publicitaire n'est utilisé.",
+      "credits": "Photos",
+      "creditsText": "Photos de la station prises sur place. Aucune image de banque d'images.",
+      "company": "Société",
+      "siret": "SIRET",
+      "director": "Directeur de la publication",
+      "address": "Adresse",
+      "phone": "Téléphone"
+    },
+    "back": "Retour à l'accueil",
+    "related": "Voir aussi"
+  },
+  "alt": {}
+}

@@ -1,0 +1,338 @@
+{
+  "meta": {
+    "title": "24-hour car wash in Camon, near Amiens | Autonet 80",
+    "description": "Self-service car wash open 24/7 in Camon, 10 minutes from Amiens: high-pressure jet wash, foaming brush, vacuums, mat washer. Rated 4.5/5 on Google.",
+    "ogAlt": "Autonet 80, 24-hour car wash in Camon"
+  },
+  "nav": {
+    "services": "Services",
+    "prix": "Prices",
+    "pros": "Business",
+    "infos": "Info",
+    "itineraire": "Directions",
+    "call": "Call",
+    "contact": "Message us",
+    "lang": "Language",
+    "menu": "Menu",
+    "close": "Close menu",
+    "home": "Autonet 80, home",
+    "skip": "Skip to content"
+  },
+  "intro": {
+    "skip": "Skip"
+  },
+  "announce": {
+    "close": "Close banner"
+  },
+  "status": {
+    "always": "Open now, 24 hours",
+    "open": "Open now",
+    "until": "until {time}",
+    "closed": "Closed",
+    "reopens": "reopens {day} at {time}",
+    "today": "today",
+    "tomorrow": "tomorrow"
+  },
+  "days": [
+    "Sunday",
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday",
+    "Saturday"
+  ],
+  "rating": {
+    "label": "{value}/5 on Google",
+    "count": "{count} reviews",
+    "asOf": "Google rating as of {date}"
+  },
+  "slot": {
+    "todo": "Photo coming soon",
+    "hero": "The station at night",
+    "facade": "The station entrance",
+    "pistes": "The wash bays",
+    "aspirateurs": "The vacuums",
+    "tapis": "The mat washer",
+    "produits": "The vending machine",
+    "equipe": "The team"
+  },
+  "hero": {
+    "eyebrow": "Car wash · 24 hours · Camon",
+    "title": "A clean car, any time of day.",
+    "lead": "High-pressure jet wash, foaming brush, vacuums and a mat washer, self-service day and night, ten minutes from central Amiens.",
+    "itineraire": "Directions",
+    "prix": "See prices"
+  },
+  "tiles": {
+    "eyebrow": "On site",
+    "title": "Everything to clean inside and out",
+    "from": "from {price}",
+    "tbc": "Price to be confirmed",
+    "confirm": "Equipment to be confirmed",
+    "items": {
+      "hp": {
+        "title": "High pressure",
+        "text": "Pre-wash, wash and rinse with the jet, in wide bays."
+      },
+      "rouleaux": {
+        "title": "Roller wash",
+        "text": "An automatic wash for when you're short on time."
+      },
+      "aspi": {
+        "title": "Vacuums",
+        "text": "Powerful, with nozzles for seats and tight corners."
+      },
+      "tapis": {
+        "title": "Mat washer",
+        "text": "Scrubs and rinses rubber and carpet mats in a minute."
+      },
+      "produits": {
+        "title": "Products",
+        "text": "Microfibre cloths, wipes and air fresheners from the machine."
+      },
+      "pros": {
+        "title": "Business fleets",
+        "text": "Vans, taxis, ride-hailing, driving schools: let's talk."
+      }
+    }
+  },
+  "strip": {
+    "label": "The essentials",
+    "items": [
+      {
+        "title": "24 hours",
+        "text": "Wash early in the morning, in the evening or at night."
+      },
+      {
+        "title": "7 days",
+        "text": "Sundays and bank holidays included."
+      },
+      {
+        "title": "Card payment",
+        "text": "Bank card and coins, no booking needed. To be confirmed."
+      },
+      {
+        "title": "Wide bays",
+        "text": "Plenty of room for SUVs and vans."
+      }
+    ]
+  },
+  "prix": {
+    "eyebrow": "Prices",
+    "title": "Clear prices, shown before you wash",
+    "lead": "It's self-service: you pay for the time you use. The amounts below match the ones displayed on the pay stations.",
+    "head": {
+      "programme": "Programme",
+      "duree": "Time",
+      "prix": "Price"
+    },
+    "from": "from {price}",
+    "price": "{price}",
+    "tbc": "Price to be confirmed",
+    "dash": "—",
+    "note": "Prices incl. VAT as of {date}. If they differ, the price shown on the pay station applies.",
+    "compare": {
+      "eyebrow": "Options",
+      "title": "Three ways to wash",
+      "lead": "Nothing to buy upfront: these are simple guides to what to combine and how long to allow.",
+      "popular": "Most popular",
+      "duration": "Time",
+      "budget": "Budget",
+      "cta": "Directions",
+      "notIncluded": "not included"
+    }
+  },
+  "blocks": {
+    "hp": {
+      "eyebrow": "Bodywork",
+      "title": "High pressure, nothing left to chance",
+      "text": "A pre-wash to loosen mud and insects, a foaming brush for the bodywork, then a thorough rinse. The machines deliver a strong, steady jet, and the bays are wide enough to walk all the way round the car.",
+      "cta": "See prices"
+    },
+    "interieur": {
+      "eyebrow": "Interior",
+      "title": "The inside too: vacuums and mats",
+      "text": "Vacuums with real suction, and a machine that brings your mats back to their original colour in a minute. Handy before a long drive, after the beach or at the end of winter.",
+      "cta": "Directions"
+    },
+    "pros": {
+      "eyebrow": "Business",
+      "title": "For fleets and vans",
+      "text": "Tradespeople, rental companies, taxis, ride-hailing drivers, driving schools: your vehicles need to look the part. Tell us how many vehicles and how often, and we'll come back with a suitable offer.",
+      "cta": "Contact us"
+    }
+  },
+  "reviews": {
+    "eyebrow": "Google reviews",
+    "title": "What our customers notice",
+    "themes": [
+      "The prices",
+      "Wash quality",
+      "The brush",
+      "The machines",
+      "The mats",
+      "High pressure"
+    ],
+    "soon": "Customer reviews will be shown here, with their permission.",
+    "cta": "Read the reviews on Google"
+  },
+  "infos": {
+    "eyebrow": "Practical info",
+    "title": "Getting here",
+    "address": "Address",
+    "hours": "Opening hours",
+    "always": "Every day, 24 hours",
+    "closures": "Announced closures",
+    "access": "Access and parking",
+    "accessText": "In the Camon business park, east of Amiens. Direct access by car, waiting space in front of the bays and dedicated spots at the vacuums.",
+    "phone": "Phone",
+    "whatsapp": "WhatsApp",
+    "mapTitle": "Map: Autonet 80, 424 rue Édouard Branly, Camon",
+    "directions": "Directions"
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "Before you come",
+    "items": [
+      {
+        "q": "Is the station really open at night?",
+        "a": "Yes, Autonet 80 is self-service 24 hours a day, 7 days a week, Sundays and bank holidays included. If a bay is closed for maintenance, we post it at the top of this site."
+      },
+      {
+        "q": "How do I pay?",
+        "a": "At the pay station, no booking needed. Bank cards and coins are accepted (to be confirmed). The price is shown on each pay station before you start."
+      },
+      {
+        "q": "How long should I allow?",
+        "a": "About 5 minutes for a quick high-pressure wash, 15 minutes for a full wash with vacuuming, and 25 minutes if you also wash the mats."
+      },
+      {
+        "q": "Can I wash a van or a motorhome?",
+        "a": "The bays are wide and suit SUVs and vans. For a tall or very long vehicle, call us before you come and we'll tell you which bay to use."
+      },
+      {
+        "q": "A machine isn't working. What should I do?",
+        "a": "Report it in one click with the contact form (reason: \"Machine fault\") or on WhatsApp, saying which bay or pay station. We'll sort it out as quickly as we can."
+      },
+      {
+        "q": "Do you have rates for businesses?",
+        "a": "Yes, for companies that regularly wash several vehicles. Tell us about your fleet and how often you need it, and we'll make you an offer (to be confirmed)."
+      }
+    ]
+  },
+  "contact": {
+    "eyebrow": "Contact",
+    "title": "A question, a fault, a fleet?",
+    "lead": "Your message goes to WhatsApp, neatly laid out. For anything urgent, just call.",
+    "motif": "Reason",
+    "motifs": {
+      "question": "A question",
+      "panne": "Machine fault",
+      "pros": "Business and fleets"
+    },
+    "machine": "Which machine?",
+    "machinePlaceholder": "E.g. bay 2, left-hand vacuum, coin slot…",
+    "fleet": "Number of vehicles",
+    "fleetPlaceholder": "E.g. 6 vans",
+    "message": "Message",
+    "messagePlaceholder": "Tell us what you need in a few words.",
+    "name": "Name",
+    "phone": "Phone",
+    "send": "Send on WhatsApp",
+    "call": "Call",
+    "required": "Required",
+    "phoneInvalid": "Phone number looks incomplete",
+    "sent": "WhatsApp has opened with your message. Just press send.",
+    "privacy": "Your details are only used to reply to you.",
+    "wa": {
+      "title": "Message from the Autonet 80 website",
+      "motif": "Reason",
+      "machine": "Machine",
+      "fleet": "Vehicles",
+      "message": "Message",
+      "name": "Name",
+      "phone": "Phone"
+    }
+  },
+  "footer": {
+    "tagline": "Self-service car wash, open 24 hours in Camon, near Amiens.",
+    "visit": "The station",
+    "contact": "Contact",
+    "pages": "Explore",
+    "legal": "Legal notice",
+    "rights": "All rights reserved.",
+    "by": "by ABCD Lavage"
+  },
+  "pages": {
+    "camon": {
+      "slugLabel": "Car wash in Camon",
+      "metaTitle": "Car wash in Camon (80450) | Autonet 80",
+      "metaDescription": "Autonet 80, the self-service car wash in Camon: high-pressure jet wash, foaming brush, vacuums, mat washer. Open 24/7, 424 rue Édouard Branly.",
+      "eyebrow": "Camon · 80450",
+      "h1": "Car wash in Camon",
+      "intro": "Autonet 80 is the self-service car wash in Camon, on rue Édouard Branly. You wash the car yourself, at your own pace, with well-kept machines and clearly displayed prices.",
+      "sections": [
+        {
+          "h": "What you'll find on site",
+          "p": "High-pressure wash bays with pre-wash, foaming brush and rinse, powerful vacuums, a mat washer and a vending machine for cleaning products."
+        },
+        {
+          "h": "Easy to reach from Camon and Rivery",
+          "p": "The station is in the Camon business park, with direct access by car. The bays are wide, and the vacuums have their own spots so nobody blocks the wash bays."
+        },
+        {
+          "h": "Open at any hour",
+          "p": "No opening hours to remember: the station is open 24/7. In the evening and early morning there's rarely a queue."
+        }
+      ]
+    },
+    "h24": {
+      "slugLabel": "24-hour car wash near Amiens",
+      "metaTitle": "24-hour car wash near Amiens | Autonet 80",
+      "metaDescription": "High-pressure car wash open 24/7 near Amiens, in Camon. Vacuums, mat washer, foaming brush. Rated 4.5/5 on Google from 91 reviews.",
+      "eyebrow": "Amiens · 24 hours",
+      "h1": "24-hour car wash near Amiens",
+      "intro": "Need to wash the car late at night or on a Sunday morning? Autonet 80 in Camon is open day and night, about ten minutes from central Amiens.",
+      "sections": [
+        {
+          "h": "High-pressure wash at any hour",
+          "p": "Pre-wash, wash and rinse with the jet, plus the foaming brush: combine the programmes as you like and only pay for the time you use."
+        },
+        {
+          "h": "From Amiens",
+          "p": "From central Amiens, head east towards Camon. The station is at 424 rue Édouard Branly, in the business park."
+        },
+        {
+          "h": "Problem with a machine?",
+          "p": "Even at night, you can report a fault in one click on WhatsApp. The message reaches us with the bay or pay station concerned."
+        }
+      ]
+    },
+    "contact": {
+      "slugLabel": "Contact",
+      "metaTitle": "Contact, machine fault or business enquiry | Autonet 80, Camon",
+      "metaDescription": "A question, a machine out of order or a fleet of vehicles to wash? Message Autonet 80 on WhatsApp or call +33 7 84 76 96 04."
+    },
+    "legal": {
+      "slugLabel": "Legal notice",
+      "metaTitle": "Legal notice | Autonet 80",
+      "metaDescription": "Legal notice for the Autonet 80 website, car wash in Camon.",
+      "h1": "Legal notice",
+      "editor": "Publisher",
+      "host": "Hosting",
+      "data": "Personal data",
+      "dataText": "The contact form stores nothing on this site: it prepares a message that you send yourself on WhatsApp. Your details are only used to reply to you. No advertising cookies are used.",
+      "credits": "Photos",
+      "creditsText": "Photos of the station taken on site. No stock images.",
+      "company": "Company",
+      "siret": "SIRET",
+      "director": "Publication director",
+      "address": "Address",
+      "phone": "Phone"
+    },
+    "back": "Back to home",
+    "related": "See also"
+  },
+  "alt": {}
+}

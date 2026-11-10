@@ -1,0 +1,11 @@
+{
+  "_note": "Bandeau du haut de page, qu'on peut fermer. Une annonce datée s'affiche entre from et to (inclus) et passe avant le message par défaut ; la plus récente l'emporte. page : home, camon, h24, contact ; hash facultatif (ancre : prix, infos, contact…). Exemple d'annonce datée : { \"id\": \"travaux-piste-2\", \"from\": \"2026-12-01\", \"to\": \"2026-12-03\", \"text\": { \"fr\": \"La piste 2 est fermée pour entretien du 1er au 3 décembre.\", \"en\": \"Bay 2 is closed for maintenance from 1 to 3 December.\" }, \"link\": { \"fr\": \"Infos pratiques\", \"en\": \"Practical info\" }, \"page\": \"home\", \"hash\": \"infos\" }",
+  "default": {
+    "id": "ouvert-24h",
+    "text": { "fr": "Ouvert 24 h/24, 7 j/7, jours fériés compris.", "en": "Open 24 hours a day, 7 days a week, bank holidays included." },
+    "link": { "fr": "Itinéraire", "en": "Directions" },
+    "page": "home",
+    "hash": "infos"
+  },
+  "items": []
+}

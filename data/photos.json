@@ -1,0 +1,11 @@
+{
+  "_note": "Emplacements photo du site. null = emplacement élégant en attente (aucune fausse photo). Après avoir lancé npm run media, mettre ici le chemin de la photo, par exemple \"/media/hero/station-de-nuit.jpg\". Ne pas montrer de visages de clients ni de plaques lisibles.",
+  "hero": null,
+  "facade": null,
+  "pistes": null,
+  "aspirateurs": null,
+  "tapis": null,
+  "produits": null,
+  "equipe": null,
+  "tiles": { "hp": null, "rouleaux": null, "aspi": null, "tapis": null, "produits": null, "pros": null }
+}

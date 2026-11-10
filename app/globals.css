@@ -1,0 +1,385 @@
+@import "tailwindcss";
+
+@theme {
+  /* Charte : blanc, gris clair, bleu eau pour l'action, marine pour les grands aplats, cyan en filet seulement */
+  --color-paper: #ffffff;
+  --color-mist: #f3f5f6;
+  --color-grey: #e6e8ea;
+  --color-line: #d9dde1;
+  --color-ink: #10243e;
+  --color-navy: #10243e;
+  --color-navy-deep: #0b1a2e;
+  /* Bleu eau : 4,9:1 sur blanc, utilisable pour du texte et les boutons */
+  --color-blue: #1e73be;
+  --color-blue-dark: #175c99;
+  /* Cyan : filets, gouttes, pictos sur marine (8,1:1 sur marine). Jamais pour du texte sur blanc. */
+  --color-cyan: #36c2d8;
+  /* Texte secondaire : 7,2:1 sur blanc */
+  --color-muted: #4f5d6d;
+
+  --font-body: var(--font-inter), "Helvetica Neue", Arial, sans-serif;
+  --font-display: var(--font-archivo), "Arial Narrow", Arial, sans-serif;
+
+  --ease-soft: cubic-bezier(0.22, 0.61, 0.36, 1);
+  --ease-snap: cubic-bezier(0.2, 0.9, 0.25, 1);
+}
+
+@layer base {
+  html {
+    -webkit-text-size-adjust: 100%;
+    color-scheme: light;
+    scroll-behavior: smooth;
+    scroll-padding-top: 5.5rem;
+  }
+  body {
+    background: var(--color-paper);
+    color: var(--color-ink);
+    font-family: var(--font-body);
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+  }
+  a,
+  button,
+  label,
+  select,
+  input,
+  textarea,
+  summary {
+    touch-action: manipulation;
+    -webkit-tap-highlight-color: transparent;
+  }
+  h1,
+  h2,
+  h3 {
+    text-wrap: balance;
+  }
+  p {
+    text-wrap: pretty;
+  }
+  ::selection {
+    background: #cfe6f6;
+    color: var(--color-ink);
+  }
+  :focus-visible {
+    outline: 2px solid var(--color-blue);
+    outline-offset: 3px;
+  }
+  [hidden] {
+    display: none !important;
+  }
+  input,
+  select,
+  textarea {
+    font: inherit;
+  }
+}
+
+@layer components {
+  .eyebrow {
+    font-family: var(--font-body);
+    font-size: 0.75rem;
+    font-weight: 500;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--color-blue);
+  }
+  /* Archivo élargi et gras : l'énergie du jet, sans cri */
+  .display {
+    font-family: var(--font-display);
+    font-weight: 750;
+    font-stretch: 112%;
+    line-height: 1;
+    letter-spacing: -0.025em;
+  }
+  .wide {
+    font-family: var(--font-display);
+    font-weight: 800;
+    font-stretch: 125%;
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+  }
+  .lead {
+    font-size: 1.0625rem;
+    line-height: 1.7;
+    color: var(--color-muted);
+  }
+  .btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.55rem;
+    min-height: 3rem;
+    padding: 0.75rem 1.4rem;
+    border-radius: 999px;
+    font-size: 0.9375rem;
+    font-weight: 500;
+    line-height: 1.1;
+    transition:
+      background-color 0.25s var(--ease-soft),
+      color 0.25s var(--ease-soft),
+      border-color 0.25s var(--ease-soft),
+      transform 0.25s var(--ease-snap);
+  }
+  .btn:active {
+    transform: scale(0.98);
+  }
+  .btn-blue {
+    background: var(--color-blue);
+    color: #fff;
+    border: 1px solid var(--color-blue);
+  }
+  .btn-blue:hover {
+    background: var(--color-blue-dark);
+    border-color: var(--color-blue-dark);
+  }
+  .btn-white {
+    background: #fff;
+    color: var(--color-ink);
+    border: 1px solid #fff;
+  }
+  .btn-white:hover {
+    background: var(--color-grey);
+    border-color: var(--color-grey);
+  }
+  .btn-line {
+    border: 1px solid currentColor;
+  }
+  .btn-line:hover {
+    background: var(--color-ink);
+    border-color: var(--color-ink);
+    color: #fff;
+  }
+  .btn-line.on-dark:hover {
+    background: #fff;
+    border-color: #fff;
+    color: var(--color-ink);
+  }
+  .link-line {
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 0.25em;
+    transition: text-decoration-color 0.25s;
+  }
+  .link-line:hover {
+    text-decoration-color: transparent;
+  }
+
+  .field {
+    width: 100%;
+    border: 1px solid var(--color-line);
+    background: #fff;
+    border-radius: 0.75rem;
+    padding: 0.8rem 1rem;
+    font-size: 1rem;
+    color: var(--color-ink);
+    transition:
+      border-color 0.2s,
+      box-shadow 0.2s;
+  }
+  .field:focus {
+    outline: none;
+    border-color: var(--color-blue);
+    box-shadow: 0 0 0 3px #1e73be26;
+  }
+  .field[aria-invalid="true"] {
+    border-color: #b3261e;
+  }
+  .field::placeholder {
+    color: #7b8794;
+  }
+  .label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-size: 0.9375rem;
+    font-weight: 500;
+  }
+  .chip {
+    display: inline-flex;
+    align-items: center;
+    min-height: 2.75rem;
+    padding: 0.5rem 1.1rem;
+    border: 1px solid var(--color-line);
+    border-radius: 999px;
+    background: #fff;
+    font-size: 0.9375rem;
+    cursor: pointer;
+    transition:
+      border-color 0.2s,
+      background-color 0.2s,
+      color 0.2s;
+  }
+  .chip:hover {
+    border-color: var(--color-ink);
+  }
+  .chip:has(input:checked) {
+    border-color: var(--color-ink);
+    background: var(--color-ink);
+    color: #fff;
+  }
+  .chip:has(input:focus-visible) {
+    outline: 2px solid var(--color-blue);
+    outline-offset: 3px;
+  }
+
+  /* Emplacement photo en attente : gris clair, fines lignes d'eau, aucune fausse photo */
+  .slot {
+    position: relative;
+    overflow: hidden;
+    background-color: var(--color-mist);
+    background-image: repeating-linear-gradient(-58deg, transparent 0 17px, #dfe4e8 17px 18px);
+  }
+  .slot.dark {
+    background-color: var(--color-navy);
+    background-image: repeating-linear-gradient(-58deg, transparent 0 17px, #ffffff0d 17px 18px);
+  }
+}
+
+/* Apparition au défilement (components/Reveal.tsx) */
+html.js .reveal:not(.in) {
+  opacity: 0;
+  transform: translateY(var(--reveal-y, 18px));
+}
+.reveal {
+  transition:
+    opacity 0.7s var(--ease-soft) var(--reveal-delay, 0s),
+    transform 0.7s var(--ease-soft) var(--reveal-delay, 0s);
+}
+.fade-in {
+  animation: fade-in 0.35s var(--ease-soft) both;
+}
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+}
+.rise {
+  animation: rise 0.8s var(--ease-soft) both;
+}
+@keyframes rise {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+}
+
+/* ——— Ouverture (1,2 s max, une fois par session) ———
+   fond blanc → une goutte tombe (0–0,34 s) et éclate en bulles bleues (0,34–0,7 s)
+   → « AUTONET 80 » (0,5 s) puis « 24 H/24 » (0,66 s) → fondu sur le hero (0,96–1,2 s). */
+.intro-curtain {
+  position: fixed;
+  inset: 0;
+  z-index: 100;
+  background: #fff;
+  animation: intro-out 0.24s ease-out 0.96s forwards;
+}
+html.intro-seen .intro-curtain {
+  display: none;
+}
+@keyframes intro-out {
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+.intro-drop {
+  transform-box: fill-box;
+  transform-origin: 50% 100%;
+  animation: drop-fall 0.34s cubic-bezier(0.55, 0, 0.9, 0.4) both;
+}
+@keyframes drop-fall {
+  0% {
+    transform: translateY(-120px) scaleY(1.15);
+    opacity: 0;
+  }
+  15% {
+    opacity: 1;
+  }
+  88% {
+    transform: translateY(0) scaleY(1.15);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(4px) scale(1.25, 0.55);
+    opacity: 0;
+  }
+}
+.intro-bubble {
+  opacity: 0;
+  transform-box: fill-box;
+  transform-origin: center;
+  animation: bubble 0.42s var(--ease-snap) var(--d, 0.34s) forwards;
+}
+@keyframes bubble {
+  0% {
+    opacity: 0;
+    transform: translate(0, 0) scale(0.2);
+  }
+  30% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: translate(var(--x), var(--y)) scale(1);
+  }
+}
+.intro-ring {
+  opacity: 0;
+  transform-box: fill-box;
+  transform-origin: center;
+  animation: ring 0.4s var(--ease-soft) 0.33s forwards;
+}
+@keyframes ring {
+  0% {
+    opacity: 0.9;
+    transform: scale(0.2, 0.1);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(1.6, 0.5);
+  }
+}
+.intro-fade {
+  opacity: 0;
+  animation: fade-up 0.26s var(--ease-soft) var(--d, 0.5s) forwards;
+}
+@keyframes fade-up {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+/* Hero : lignes d'eau qui glissent lentement (décor au trait) */
+.flow {
+  animation: flow 14s linear infinite;
+}
+@keyframes flow {
+  to {
+    transform: translateX(-200px);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-delay: 0s !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+  html.js .reveal:not(.in) {
+    opacity: 1;
+    transform: none;
+  }
+  .intro-curtain {
+    display: none;
+  }
+}

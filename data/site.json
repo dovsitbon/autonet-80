@@ -1,0 +1,22 @@
+{
+  "name": "Autonet 80",
+  "fullName": "Autonet 80 by ABCD Lavage",
+  "url": "https://autonet-80.vercel.app",
+  "phone": "07 84 76 96 04",
+  "phoneIntl": "+33 7 84 76 96 04",
+  "tel": "+33784769604",
+  "whatsapp": "33784769604",
+  "email": null,
+  "address": { "street": "424 rue Édouard Branly", "postalCode": "80450", "city": "Camon", "near": "Amiens", "region": "Hauts-de-France", "country": "FR" },
+  "maps": "https://www.google.com/maps/search/?api=1&query=Autonet+80+424+rue+Edouard+Branly+80450+Camon",
+  "directions": "https://www.google.com/maps/dir/?api=1&destination=Autonet+80%2C+424+rue+Edouard+Branly%2C+80450+Camon",
+  "mapsEmbed": "https://www.google.com/maps?q=Autonet+80,+424+rue+Edouard+Branly,+80450+Camon&z=15&output=embed",
+  "rating": { "value": 4.5, "count": 91, "asOf": "2026-11-10", "source": "Google" },
+  "legal": {
+    "_note": "À confirmer avec le gérant : société et SIRET relevés sur l'annuaire des entreprises (établissement « AUTONET 80 », 424 rue Édouard Branly).",
+    "company": "LG2N (à confirmer)",
+    "siret": "793 574 187 (à confirmer)",
+    "director": "à remplir",
+    "host": "Vercel Inc., 440 N Barranca Ave #4133, Covina, CA 91723, États-Unis"
+  }
+}

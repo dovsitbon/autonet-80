@@ -1,0 +1,61 @@
+{
+  "_note": "Prix à remplir avec le gérant (en euros, nombre ou null). price = null → « Prix à confirmer ». from = true → « à partir de ». duration = indication donnée au client (à valider). Les formules du comparateur (rapide, complet, premium) reprennent les mêmes programmes.",
+  "asOf": "2026-11-10",
+  "categories": [
+    {
+      "id": "exterieur",
+      "name": { "fr": "Extérieur, sur les pistes", "en": "Outside, in the wash bays" },
+      "items": [
+        { "id": "hp", "name": { "fr": "Haute pression : prélavage, lavage, rinçage", "en": "High pressure: pre-wash, wash, rinse" }, "duration": { "fr": "par tranche de temps", "en": "per time slot" }, "price": null, "from": true },
+        { "id": "mousse", "name": { "fr": "Canon à mousse active", "en": "Active snow foam" }, "duration": { "fr": "inclus dans le temps de piste", "en": "within bay time" }, "price": null, "from": false, "confirm": true },
+        { "id": "brosse", "name": { "fr": "Brosse moussante", "en": "Foaming brush" }, "duration": { "fr": "inclus dans le temps de piste", "en": "within bay time" }, "price": null, "from": false },
+        { "id": "cire", "name": { "fr": "Cire et rinçage final sans traces", "en": "Wax and spot-free final rinse" }, "duration": { "fr": "inclus dans le temps de piste", "en": "within bay time" }, "price": null, "from": false, "confirm": true },
+        { "id": "rouleaux", "name": { "fr": "Rouleaux ou portique de lavage", "en": "Roller wash or gantry" }, "duration": { "fr": "env. 6 à 10 min", "en": "approx. 6 to 10 min" }, "price": null, "from": true, "confirm": true }
+      ]
+    },
+    {
+      "id": "interieur",
+      "name": { "fr": "Intérieur", "en": "Inside the car" },
+      "items": [
+        { "id": "aspi", "name": { "fr": "Aspirateur haute puissance", "en": "High-power vacuum" }, "duration": { "fr": "par tranche de temps", "en": "per time slot" }, "price": null, "from": true },
+        { "id": "tapis", "name": { "fr": "Lavage des tapis (machine à tapis)", "en": "Mat washer" }, "duration": { "fr": "env. 1 min par tapis", "en": "approx. 1 min per mat" }, "price": null, "from": true },
+        { "id": "souffleur", "name": { "fr": "Souffleur pour les recoins", "en": "Air blower for tight spots" }, "duration": { "fr": "par tranche de temps", "en": "per time slot" }, "price": null, "from": false, "confirm": true }
+      ]
+    },
+    {
+      "id": "produits",
+      "name": { "fr": "Produits et jetons", "en": "Products and tokens" },
+      "items": [
+        { "id": "distributeur", "name": { "fr": "Distributeur : microfibres, lingettes, désodorisants", "en": "Vending machine: microfibre cloths, wipes, air fresheners" }, "duration": null, "price": null, "from": true, "confirm": true },
+        { "id": "jetons", "name": { "fr": "Jetons et carte de lavage", "en": "Tokens and wash card" }, "duration": null, "price": null, "from": false, "confirm": true }
+      ]
+    }
+  ],
+  "formules": [
+    {
+      "id": "rapide",
+      "name": { "fr": "Rapide", "en": "Quick" },
+      "pitch": { "fr": "Le coup de propre de la semaine.", "en": "Your weekly freshen-up." },
+      "duration": { "fr": "env. 5 min", "en": "approx. 5 min" },
+      "price": null,
+      "includes": ["hp"]
+    },
+    {
+      "id": "complet",
+      "name": { "fr": "Complet", "en": "Full" },
+      "pitch": { "fr": "Carrosserie et habitacle, le bon équilibre.", "en": "Bodywork and interior, the sweet spot." },
+      "duration": { "fr": "env. 15 min", "en": "approx. 15 min" },
+      "price": null,
+      "includes": ["hp", "brosse", "aspi"],
+      "highlight": true
+    },
+    {
+      "id": "premium",
+      "name": { "fr": "Premium", "en": "Premium" },
+      "pitch": { "fr": "Le grand soin, tapis compris.", "en": "The full treatment, mats included." },
+      "duration": { "fr": "env. 25 min", "en": "approx. 25 min" },
+      "price": null,
+      "includes": ["hp", "mousse", "brosse", "cire", "aspi", "tapis"]
+    }
+  ]
+}

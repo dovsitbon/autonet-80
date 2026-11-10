@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 60" role="img" aria-label="Autonet 80 by ABCD Lavage">
+  <!-- Logo provisoire Autonet 80 : goutte + voiture au trait, mot-symbole en capitales larges. À remplacer par le logo officiel. -->
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round" transform="translate(4 6)">
+    <path d="M20 3S6 19.5 6 30a14 14 0 0 0 28 0C34 19.5 20 3 20 3Z" stroke="#1E73BE" stroke-width="2.6"/>
+    <path d="M11.5 34.5h17M12.6 34.5l1.7-4.3a2 2 0 0 1 1.9-1.3h7.6a2 2 0 0 1 1.9 1.3l1.7 4.3" stroke="#10243E" stroke-width="2.2"/>
+    <path d="M15 37.6v.1M25 37.6v.1" stroke="#10243E" stroke-width="3"/>
+  </g>
+  <text x="54" y="35" font-family="Archivo, 'Arial Black', Arial, sans-serif" font-size="26" font-weight="800" font-style="italic" fill="#10243E" letter-spacing="0.5">AUTONET <tspan fill="#1E73BE">80</tspan></text>
+  <text x="55" y="50" font-family="Inter, Arial, sans-serif" font-size="8.5" font-weight="500" fill="#4F5D6D" letter-spacing="2.4">BY ABCD LAVAGE</text>
+</svg>

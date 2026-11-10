@@ -34,7 +34,7 @@ export function Slot({ src, d, sizes, className = "", icon, label, priority = fa
       <div className="flex flex-col items-center gap-3 px-6 text-center">
         {icon}
         {label && <span className={`text-[0.875rem] font-medium ${dark ? "text-white/85" : "text-ink/80"}`}>{label}</span>}
-        <span className={`text-[0.6875rem] font-medium tracking-[0.14em] uppercase ${dark ? "text-white/60" : "text-muted"}`}>{d.slot.todo}</span>
+        <span className={`text-[0.75rem] ${dark ? "text-white/60" : "text-muted"}`}>{d.slot.todo}</span>
       </div>
     </div>
   );

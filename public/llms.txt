@@ -1,0 +1,17 @@
+# Autonet 80 by ABCD Lavage
+
+> Station de lavage automobile en libre-service, ouverte 24 h/24 et 7 j/7, au 424 rue Édouard Branly, 80450 Camon, à une dizaine de minutes d'Amiens. Téléphone et WhatsApp : 07 84 76 96 04. Note Google : 4,5/5 sur 91 avis (novembre 2026).
+
+## Services
+- Lavage haute pression : prélavage, lavage, rinçage, brosse moussante
+- Aspirateurs haute puissance
+- Machine à laver les tapis
+- Distributeur de produits d'entretien
+- Demandes des professionnels et flottes d'entreprise (utilitaires, taxis, VTC, auto-écoles) par WhatsApp
+
+## Pages
+- [Accueil (FR)](https://autonet-80.vercel.app/fr) : services, prix, formules, infos pratiques, FAQ, contact
+- [Station de lavage à Camon](https://autonet-80.vercel.app/fr/station-lavage-camon)
+- [Lavage voiture 24 h/24 près d'Amiens](https://autonet-80.vercel.app/fr/lavage-voiture-24h-amiens)
+- [Contact, panne ou demande pro](https://autonet-80.vercel.app/fr/contact)
+- [Home (EN)](https://autonet-80.vercel.app/en)

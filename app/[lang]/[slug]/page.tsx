@@ -71,7 +71,7 @@ function SeoPage({ lang, d, id }: { lang: Locale; d: Dict; id: "camon" | "h24" }
         <div className="grid gap-10 md:grid-cols-3 lg:gap-14">
           {p.sections.map((s, i) => (
             <Reveal key={s.h} delay={i * 0.06}>
-              <span className="text-[0.75rem] font-medium tracking-[0.14em] text-blue">{String(i + 1).padStart(2, "0")}</span>
+              <span className="text-[0.8125rem] font-medium text-blue tabular-nums">{String(i + 1).padStart(2, "0")}</span>
               <h2 className="display mt-3 text-[1.6rem]">{s.h}</h2>
               <p className="mt-3 leading-relaxed text-muted">{s.p}</p>
             </Reveal>

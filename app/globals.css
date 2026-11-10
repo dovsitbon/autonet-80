@@ -77,16 +77,14 @@
 @layer components {
   .eyebrow {
     font-family: var(--font-body);
-    font-size: 0.75rem;
+    font-size: 0.875rem;
     font-weight: 500;
-    letter-spacing: 0.14em;
-    text-transform: uppercase;
     color: var(--color-blue);
   }
   /* Archivo élargi et gras : l'énergie du jet, sans cri */
   .display {
     font-family: var(--font-display);
-    font-weight: 750;
+    font-weight: 700;
     font-stretch: 112%;
     line-height: 1;
     letter-spacing: -0.025em;

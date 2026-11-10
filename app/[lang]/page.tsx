@@ -14,6 +14,7 @@ import { Faq, InfosBlock, Rating, SectionHead, Slot } from "@/components/Blocks"
 import { ContactForm } from "@/components/ContactForm";
 import { OpenStatus } from "@/components/OpenStatus";
 import { Reveal } from "@/components/Reveal";
+import { HeroArt } from "@/components/HeroArt";
 import { ArrowIcon, BayIcon, BottleIcon, CalendarIcon, CardIcon, CheckIcon, ClockIcon, JetIcon, MatIcon, RollerIcon, RouteIcon, StarIcon, VacuumIcon, VanIcon } from "@/components/icons";
 
 type TileId = keyof Dict["tiles"]["items"];
@@ -55,7 +56,7 @@ function Hero({ lang, d }: { lang: Locale; d: Dict }) {
       ) : (
         <div className="slot dark absolute inset-0 -z-10 !rounded-none" aria-hidden="true" />
       )}
-      <div className="mx-auto flex min-h-[calc(100svh-6.5rem)] max-w-[90rem] flex-col justify-center px-5 pt-16 pb-36 sm:px-8 lg:min-h-[calc(100svh-7.5rem)] lg:px-10">
+      <div className="mx-auto flex min-h-[calc(100svh-6.5rem)] max-w-[90rem] flex-col justify-center px-5 pt-16 pb-36 sm:px-8 lg:min-h-[calc(100svh-7.5rem)] lg:px-10 lg:pe-[46%]">
         <p className="rise text-[0.75rem] font-medium tracking-[0.18em] text-cyan uppercase">{h.eyebrow}</p>
         <h1 id="hero-title" className="display rise mt-6 max-w-[14ch] text-[clamp(2.9rem,8.4vw,7rem)] [animation-delay:0.08s]">
           {h.title}
@@ -74,7 +75,7 @@ function Hero({ lang, d }: { lang: Locale; d: Dict }) {
           <OpenStatus dark />
         </div>
       </div>
-      {!photo && <p className="absolute end-5 bottom-8 hidden text-[0.75rem] text-white/50 sm:block lg:end-10">{`${d.slot.todo} · ${d.slot.hero}`}</p>}
+      {!photo && <HeroArt className="pointer-events-none absolute end-[max(1rem,calc((100vw-90rem)/2))] top-1/2 -z-10 hidden w-[min(46vw,40rem)] -translate-y-1/2 lg:block" />}
       <WaterLines />
     </section>
   );
@@ -153,7 +154,7 @@ function Prix({ lang, d }: { lang: Locale; d: Dict }) {
                   <span className="display text-[1.5rem] sm:text-[1.75rem]">{c.name[lang]}</span>
                 </caption>
                 <thead className="sr-only sm:not-sr-only">
-                  <tr className="text-[0.75rem] font-medium tracking-[0.1em] text-muted uppercase">
+                  <tr className="text-[0.8125rem] text-muted">
                     <th scope="col" className="pt-4 pb-2 text-start font-medium">
                       {p.head.programme}
                     </th>
@@ -198,8 +199,7 @@ function Compare({ lang, d }: { lang: Locale; d: Dict }) {
         {formules.map((f, i) => (
           <Reveal as="li" key={f.id} delay={i * 0.06} className={`flex flex-col rounded-2xl p-7 lg:p-9 ${f.highlight ? "bg-navy text-white" : "border border-line bg-white"}`}>
             <div className="flex min-h-7 items-center justify-between gap-3">
-              <span className={`text-[0.75rem] font-medium tracking-[0.14em] uppercase ${f.highlight ? "text-cyan" : "text-blue"}`}>{String(i + 1).padStart(2, "0")}</span>
-              {f.highlight && <span className="rounded-full border border-white/25 px-3 py-1 text-[0.75rem]">{c.popular}</span>}
+              <span className={`text-[0.8125rem] font-medium tabular-nums ${f.highlight ? "text-cyan" : "text-blue"}`}>{String(i + 1).padStart(2, "0")}</span>
             </div>
             <h3 className="display mt-4 text-[2.25rem]">{f.name[lang]}</h3>
             <p className={`mt-2 ${f.highlight ? "text-white/75" : "text-muted"}`}>{f.pitch[lang]}</p>

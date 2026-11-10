@@ -8,7 +8,7 @@ Voir aussi : [INFOS-A-DEMANDER.md](INFOS-A-DEMANDER.md) et [assets/A-PHOTOGRAPHI
 
 ## Titres du hero : 3 propositions
 
-1. **Une voiture propre, à toute heure.** *(A clean car, any time of day.)* : retenu sur le site
+1. **Une voiture propre, à toute heure** *(A clean car, any time of day)* : retenu sur le site
 2. **Lavez quand vous voulez.** *(Wash whenever you like.)*
 3. **Brillante en quelques minutes.** *(Gleaming in minutes.)*
 
@@ -142,7 +142,7 @@ Chaque ligne : clé, français, anglais. Les textes marqués **à valider** dema
 | Clé | Français | English | |
 |---|---|---|---|
 | `hero.eyebrow` | Station de lavage · 24 h/24 · Camon | Car wash · 24 hours · Camon | |
-| `hero.title` | Une voiture propre, à toute heure. | A clean car, any time of day. | |
+| `hero.title` | Une voiture propre, à toute heure | A clean car, any time of day | |
 | `hero.lead` | Haute pression, brosse, aspirateurs et machine à tapis, en libre-service jour et nuit, à dix minutes du centre d'Amiens. | High-pressure jet wash, foaming brush, vacuums and a mat washer, self-service day and night, ten minutes from central Amiens. | |
 | `hero.itineraire` | Itinéraire | Directions | |
 | `hero.prix` | Voir les prix | See prices | |
@@ -201,7 +201,6 @@ Chaque ligne : clé, français, anglais. Les textes marqués **à valider** dema
 | `prix.compare.eyebrow` | Formules | Options | |
 | `prix.compare.title` | Trois façons de laver | Three ways to wash | |
 | `prix.compare.lead` | Pas de forfait à acheter : ce sont des repères pour savoir quoi enchaîner et combien de temps prévoir. | Nothing to buy upfront: these are simple guides to what to combine and how long to allow. | |
-| `prix.compare.popular` | Le plus choisi | Most popular | |
 | `prix.compare.duration` | Durée | Time | |
 | `prix.compare.budget` | Budget | Budget | |
 | `prix.compare.cta` | Itinéraire | Directions | |
@@ -271,7 +270,7 @@ Chaque ligne : clé, français, anglais. Les textes marqués **à valider** dema
 | `faq.items.3.q` | Peut-on laver un utilitaire ou un camping-car ? | Can I wash a van or a motorhome? | **à valider (gabarits acceptés)** |
 | `faq.items.3.a` | Les pistes sont larges et conviennent aux SUV et aux utilitaires. Pour un véhicule haut ou très long, appelez-nous avant de venir : nous vous dirons quelle piste utiliser. | The bays are wide and suit SUVs and vans. For a tall or very long vehicle, call us before you come and we'll tell you which bay to use. | **à valider (gabarits acceptés)** |
 | `faq.items.4.q` | Une machine ne fonctionne pas, que faire ? | A machine isn't working. What should I do? | |
-| `faq.items.4.a` | Signalez-le en un clic avec le formulaire de contact (motif « Panne d'une machine ») ou par WhatsApp, en précisant la piste ou la borne. Nous intervenons au plus vite. | Report it in one click with the contact form (reason: "Machine fault") or on WhatsApp, saying which bay or pay station. We'll sort it out as quickly as we can. | |
+| `faq.items.4.a` | Signalez-le en un clic avec le formulaire de contact (motif « Panne d'une machine ») ou par WhatsApp, en précisant la piste ou la borne. Nous intervenons au plus vite. | Report it in one click with the contact form (reason: “Machine fault”) or on WhatsApp, saying which bay or pay station. We'll sort it out as quickly as we can. | |
 | `faq.items.5.q` | Proposez-vous des tarifs pour les professionnels ? | Do you have rates for businesses? | **à valider (offre pro)** |
 | `faq.items.5.a` | Oui, pour les entreprises qui lavent régulièrement plusieurs véhicules. Indiquez-nous votre flotte et la fréquence souhaitée, nous vous faisons une proposition (offre à confirmer). | Yes, for companies that regularly wash several vehicles. Tell us about your fleet and how often you need it, and we'll make you an offer (to be confirmed). | **à valider (offre pro)** |
 
@@ -289,9 +288,9 @@ Chaque ligne : clé, français, anglais. Les textes marqués **à valider** dema
 | `contact.machine` | Quelle machine ? | Which machine? | |
 | `contact.machinePlaceholder` | Ex. : piste 2, aspirateur de gauche, monnayeur… | E.g. bay 2, left-hand vacuum, coin slot… | |
 | `contact.fleet` | Nombre de véhicules | Number of vehicles | |
-| `contact.fleetPlaceholder` | Ex. : 6 utilitaires | E.g. 6 vans | |
+| `contact.fleetPlaceholder` | Ex. : 6 utilitaires… | E.g. 6 vans… | |
 | `contact.message` | Message | Message | |
-| `contact.messagePlaceholder` | Décrivez votre demande en quelques mots. | Tell us what you need in a few words. | |
+| `contact.messagePlaceholder` | Décrivez votre demande en quelques mots… | Tell us what you need in a few words… | |
 | `contact.name` | Nom | Name | |
 | `contact.phone` | Téléphone | Phone | |
 | `contact.send` | Envoyer sur WhatsApp | Send on WhatsApp | |

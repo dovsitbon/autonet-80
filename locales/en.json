@@ -59,7 +59,7 @@
   },
   "hero": {
     "eyebrow": "Car wash · 24 hours · Camon",
-    "title": "A clean car, any time of day.",
+    "title": "A clean car, any time of day",
     "lead": "High-pressure jet wash, foaming brush, vacuums and a mat washer, self-service day and night, ten minutes from central Amiens.",
     "itineraire": "Directions",
     "prix": "See prices"
@@ -136,7 +136,6 @@
       "eyebrow": "Options",
       "title": "Three ways to wash",
       "lead": "Nothing to buy upfront: these are simple guides to what to combine and how long to allow.",
-      "popular": "Most popular",
       "duration": "Time",
       "budget": "Budget",
       "cta": "Directions",
@@ -213,7 +212,7 @@
       },
       {
         "q": "A machine isn't working. What should I do?",
-        "a": "Report it in one click with the contact form (reason: \"Machine fault\") or on WhatsApp, saying which bay or pay station. We'll sort it out as quickly as we can."
+        "a": "Report it in one click with the contact form (reason: “Machine fault”) or on WhatsApp, saying which bay or pay station. We'll sort it out as quickly as we can."
       },
       {
         "q": "Do you have rates for businesses?",
@@ -234,9 +233,9 @@
     "machine": "Which machine?",
     "machinePlaceholder": "E.g. bay 2, left-hand vacuum, coin slot…",
     "fleet": "Number of vehicles",
-    "fleetPlaceholder": "E.g. 6 vans",
+    "fleetPlaceholder": "E.g. 6 vans…",
     "message": "Message",
-    "messagePlaceholder": "Tell us what you need in a few words.",
+    "messagePlaceholder": "Tell us what you need in a few words…",
     "name": "Name",
     "phone": "Phone",
     "send": "Send on WhatsApp",

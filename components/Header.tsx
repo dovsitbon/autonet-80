@@ -120,7 +120,7 @@ export function Header() {
       </div>
 
       {open && (
-        <div id="menu" style={{ top: panelTop }} className="fade-in fixed inset-x-0 bottom-0 z-40 overflow-y-auto bg-white px-6 pt-4 pb-32 lg:hidden">
+        <div id="menu" style={{ top: panelTop }} className="fade-in fixed inset-x-0 bottom-0 z-40 overflow-y-auto overscroll-contain bg-white px-6 pt-4 pb-32 lg:hidden">
           <nav aria-label={n.menu}>
             <ul className="divide-y divide-line border-b border-line">
               {links.map((l) => (

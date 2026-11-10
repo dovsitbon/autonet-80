@@ -37,23 +37,22 @@ export function Intro({ skipLabel }: { skipLabel: string }) {
   if (gone) return null;
 
   return (
-    <div className="intro-curtain flex flex-col items-center justify-center text-ink" aria-hidden="true">
-      <svg viewBox="-80 -80 160 100" className="h-28 w-auto overflow-visible" fill="none">
+    <div className="intro-curtain flex flex-col items-center justify-center text-ink">
+      <svg aria-hidden="true" viewBox="-80 -80 160 100" className="h-28 w-auto overflow-visible" fill="none">
         <path className="intro-drop" d="M0 -26S-11 -12 -11 -3a11 11 0 0 0 22 0C11 -12 0 -26 0 -26Z" fill="var(--color-blue)" />
         <ellipse className="intro-ring" cx="0" cy="8" rx="26" ry="6" stroke="var(--color-cyan)" strokeWidth="1.5" />
         {BUBBLES.map(([x, y, r, d], i) => (
           <circle key={i} className="intro-bubble" cx="0" cy="0" r={r} fill={i % 3 ? "none" : "var(--color-blue)"} stroke={i % 3 ? "var(--color-blue)" : "none"} strokeWidth="1.4" style={{ ...at(d), "--x": `${x}px`, "--y": `${y}px` } as CSSProperties} />
         ))}
       </svg>
-      <p className="intro-fade wide mt-2 text-[2rem] italic sm:text-[2.6rem]" style={at(0.5)} translate="no">
+      <p className="intro-fade wide mt-2 text-[2rem] italic sm:text-[2.6rem]" style={at(0.5)} translate="no" aria-hidden="true">
         Autonet <span className="text-blue">80</span>
       </p>
-      <p className="intro-fade mt-3 text-[0.8125rem] font-medium tracking-[0.3em] text-muted" style={at(0.66)} translate="no">
+      <p className="intro-fade mt-3 text-[0.8125rem] font-medium tracking-[0.3em] text-muted" style={at(0.66)} translate="no" aria-hidden="true">
         24 H/24
       </p>
       <button
         type="button"
-        aria-hidden="false"
         onClick={() => {
           try {
             sessionStorage.setItem(KEY, "1");

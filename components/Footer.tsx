@@ -25,7 +25,7 @@ export function Footer({ lang, d }: { lang: Locale; d: Dict }) {
           <p className="mt-6 max-w-xs leading-relaxed text-white/70">{f.tagline}</p>
         </div>
         <div>
-          <h2 className="text-[0.75rem] font-medium tracking-[0.14em] text-cyan uppercase">{f.visit}</h2>
+          <h2 className="text-[0.875rem] font-medium text-cyan">{f.visit}</h2>
           <address className="mt-4 leading-relaxed not-italic">
             {site.address.street}
             <br />
@@ -37,7 +37,7 @@ export function Footer({ lang, d }: { lang: Locale; d: Dict }) {
           </a>
         </div>
         <div>
-          <h2 className="text-[0.75rem] font-medium tracking-[0.14em] text-cyan uppercase">{f.contact}</h2>
+          <h2 className="text-[0.875rem] font-medium text-cyan">{f.contact}</h2>
           <ul className="mt-4 space-y-3">
             <li>
               <a href={`tel:${site.tel}`} className="inline-flex items-center gap-2 tabular-nums hover:text-white">
@@ -52,7 +52,7 @@ export function Footer({ lang, d }: { lang: Locale; d: Dict }) {
           </ul>
         </div>
         <div>
-          <h2 className="text-[0.75rem] font-medium tracking-[0.14em] text-cyan uppercase">{f.pages}</h2>
+          <h2 className="text-[0.875rem] font-medium text-cyan">{f.pages}</h2>
           <ul className="mt-4 space-y-3">
             {pages.map((p) => (
               <li key={p.to}>

@@ -59,7 +59,7 @@
   },
   "hero": {
     "eyebrow": "Station de lavage · 24 h/24 · Camon",
-    "title": "Une voiture propre, à toute heure.",
+    "title": "Une voiture propre, à toute heure",
     "lead": "Haute pression, brosse, aspirateurs et machine à tapis, en libre-service jour et nuit, à dix minutes du centre d'Amiens.",
     "itineraire": "Itinéraire",
     "prix": "Voir les prix"
@@ -136,7 +136,6 @@
       "eyebrow": "Formules",
       "title": "Trois façons de laver",
       "lead": "Pas de forfait à acheter : ce sont des repères pour savoir quoi enchaîner et combien de temps prévoir.",
-      "popular": "Le plus choisi",
       "duration": "Durée",
       "budget": "Budget",
       "cta": "Itinéraire",
@@ -234,9 +233,9 @@
     "machine": "Quelle machine ?",
     "machinePlaceholder": "Ex. : piste 2, aspirateur de gauche, monnayeur…",
     "fleet": "Nombre de véhicules",
-    "fleetPlaceholder": "Ex. : 6 utilitaires",
+    "fleetPlaceholder": "Ex. : 6 utilitaires…",
     "message": "Message",
-    "messagePlaceholder": "Décrivez votre demande en quelques mots.",
+    "messagePlaceholder": "Décrivez votre demande en quelques mots…",
     "name": "Nom",
     "phone": "Téléphone",
     "send": "Envoyer sur WhatsApp",

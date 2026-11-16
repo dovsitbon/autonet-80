@@ -10,7 +10,7 @@ export function img(path: string): Img {
   return { src: path, width: s[0], height: s[1] };
 }
 
-export type SlotKey = "hero" | "facade" | "pistes" | "aspirateurs" | "tapis" | "produits" | "equipe";
+export type SlotKey = "hero" | "facade" | "station" | "portique" | "pistes" | "aspirateurs" | "tapis" | "produits" | "equipe";
 /** Photo d'un emplacement (data/photos.json), ou null tant qu'elle n'a pas été prise. */
 export const slot = (key: SlotKey): string | null => ((photos as Record<string, unknown>)[key] as string | null) ?? null;
 export const tileSlot = (key: string): string | null => (photos.tiles as Record<string, string | null>)[key] ?? null;

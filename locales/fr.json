@@ -55,7 +55,10 @@
     "aspirateurs": "Les aspirateurs",
     "tapis": "La machine à tapis",
     "produits": "Le distributeur",
-    "equipe": "L'équipe"
+    "equipe": "L'équipe",
+    "station": "La station",
+    "portique": "Le portique",
+    "illustration": "Illustration"
   },
   "hero": {
     "eyebrow": "Station de lavage · 24 h/24 · Camon",
@@ -73,23 +76,23 @@
     "items": {
       "hp": {
         "title": "Haute pression",
-        "text": "Prélavage, lavage et rinçage au jet, sur des pistes larges."
+        "text": "Jantes, mousse, lavage à l'eau chaude, brosse, rinçage, cire et finition."
       },
       "rouleaux": {
-        "title": "Rouleaux",
-        "text": "Un lavage automatique quand vous êtes pressé, sans sortir le jet."
+        "title": "Portique",
+        "text": "Le portique à brosses lave la voiture pendant que vous patientez. Hauteur max. 2,30 m."
       },
       "aspi": {
         "title": "Aspirateurs",
         "text": "Puissants, avec des embouts pour les sièges et les recoins."
       },
       "tapis": {
-        "title": "Lavage des tapis",
-        "text": "La machine brosse et rince vos tapis en caoutchouc ou en moquette."
+        "title": "Sièges et moquettes",
+        "text": "Un nettoyeur pour les sièges, les moquettes et les tapis en tissu."
       },
       "produits": {
         "title": "Produits",
-        "text": "Microfibres, lingettes et désodorisants au distributeur."
+        "text": "Lingettes humidifiées et parfums au distributeur."
       },
       "pros": {
         "title": "Pros et flottes",
@@ -110,7 +113,7 @@
       },
       {
         "title": "Paiement CB",
-        "text": "Carte bancaire et pièces, sans rendez-vous. À confirmer."
+        "text": "Carte bancaire à la borne, sans rendez-vous."
       },
       {
         "title": "Grandes pistes",
@@ -146,13 +149,13 @@
     "hp": {
       "eyebrow": "Carrosserie",
       "title": "La haute pression, sans rien laisser au hasard",
-      "text": "Prélavage pour décoller la boue et les insectes, brosse moussante pour la carrosserie, rinçage à fond. Les machines sont réglées pour un jet puissant et régulier, et les pistes sont assez larges pour tourner autour de la voiture.",
+      "text": "Lance jantes, canon à mousse, lavage à l'eau chaude adoucie, brosse moussante, rinçage, cire puis finition à l'eau déminéralisée pour sécher sans traces. Les pistes sont assez larges pour tourner autour de la voiture.",
       "cta": "Voir les prix"
     },
     "interieur": {
       "eyebrow": "Habitacle",
-      "title": "L'intérieur aussi : aspirateurs et tapis",
-      "text": "Des aspirateurs qui aspirent vraiment, et une machine qui rend aux tapis leur couleur d'origine en une minute. Pratique avant un long trajet, après la plage ou à la fin de l'hiver.",
+      "title": "L'intérieur aussi : aspirateurs, sièges et moquettes",
+      "text": "Des aspirateurs puissants, un nettoyeur pour les sièges et les moquettes, un gonfleur pour les pneus et des lingettes au distributeur. Pratique avant un long trajet, après la plage ou à la fin de l'hiver.",
       "cta": "Itinéraire"
     },
     "pros": {
@@ -200,7 +203,7 @@
       },
       {
         "q": "Comment paie-t-on ?",
-        "a": "Directement à la borne, sans rendez-vous. La carte bancaire et les pièces sont acceptées (à confirmer). Le tarif est affiché sur chaque borne avant le lancement."
+        "a": "Directement à la borne de paiement, par carte bancaire, sans rendez-vous. Le tarif est affiché sur chaque borne avant le lancement. Pièces et jetons : à confirmer."
       },
       {
         "q": "Combien de temps faut-il prévoir ?",
@@ -208,7 +211,7 @@
       },
       {
         "q": "Peut-on laver un utilitaire ou un camping-car ?",
-        "a": "Les pistes sont larges et conviennent aux SUV et aux utilitaires. Pour un véhicule haut ou très long, appelez-nous avant de venir : nous vous dirons quelle piste utiliser."
+        "a": "Les pistes haute pression sont signalées à 3 m de hauteur et conviennent aux SUV et aux utilitaires. Le portique à brosses accepte les véhicules jusqu'à 2,30 m. Pour un véhicule plus haut ou très long, appelez-nous avant de venir."
       },
       {
         "q": "Une machine ne fonctionne pas, que faire ?",
@@ -333,5 +336,16 @@
     "back": "Retour à l'accueil",
     "related": "Voir aussi"
   },
-  "alt": {}
+  "alt": {
+    "pistes-abcd-lavage": "Les pistes de lavage haute pression de la station Autonet 80 by ABCD Lavage à Camon, sous l'auvent vert",
+    "portique-abcd-lavage": "Le portique d'entrée ABCD Lavage et une piste de lavage haute pression à Camon",
+    "ancienne-enseigne-lavage-auto": "Vue d'ensemble de la station de lavage Autonet à Camon, avec les pistes couvertes",
+    "canon-a-mousse-piste": "Une voiture couverte de mousse active sur une piste de la station",
+    "mousse-active-carrosserie": "Carrosserie couverte de mousse active avant le rinçage haute pression",
+    "portique-brosses": "Le portique de lavage à brosses de la station, une voiture en cours de lavage",
+    "borne-de-paiement-portique": "La borne de paiement par carte devant le portique de lavage, hauteur maximale 2,30 m",
+    "aspirateurs-gonfleur": "Les aspirateurs, le gonfleur et le nettoyeur sièges et moquettes de la station",
+    "nettoyeur-sieges-moquettes": "Le nettoyeur sièges et moquettes et le distributeur de lingettes de la station",
+    "microfibre-unsplash-gogonano": "Illustration : une microfibre posée sur le capot d'une voiture bleue"
+  }
 }

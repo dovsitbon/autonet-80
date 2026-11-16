@@ -55,7 +55,10 @@
     "aspirateurs": "The vacuums",
     "tapis": "The mat washer",
     "produits": "The vending machine",
-    "equipe": "The team"
+    "equipe": "The team",
+    "station": "The station",
+    "portique": "The gantry",
+    "illustration": "Illustration"
   },
   "hero": {
     "eyebrow": "Car wash · 24 hours · Camon",
@@ -73,23 +76,23 @@
     "items": {
       "hp": {
         "title": "High pressure",
-        "text": "Pre-wash, wash and rinse with the jet, in wide bays."
+        "text": "Wheels, foam, hot-water wash, brush, rinse, wax and finish."
       },
       "rouleaux": {
-        "title": "Roller wash",
-        "text": "An automatic wash for when you're short on time."
+        "title": "Portique",
+        "text": "The brush gantry washes the car while you wait. Max. height 2.30 m."
       },
       "aspi": {
         "title": "Vacuums",
         "text": "Powerful, with nozzles for seats and tight corners."
       },
       "tapis": {
-        "title": "Mat washer",
-        "text": "Scrubs and rinses rubber and carpet mats in a minute."
+        "title": "Seats and carpets",
+        "text": "A cleaner for seats, carpets and fabric mats."
       },
       "produits": {
         "title": "Products",
-        "text": "Microfibre cloths, wipes and air fresheners from the machine."
+        "text": "Wet wipes and air fresheners from the vending machine."
       },
       "pros": {
         "title": "Business fleets",
@@ -110,7 +113,7 @@
       },
       {
         "title": "Card payment",
-        "text": "Bank card and coins, no booking needed. To be confirmed."
+        "text": "Pay by card at the pay station, no booking needed."
       },
       {
         "title": "Wide bays",
@@ -146,13 +149,13 @@
     "hp": {
       "eyebrow": "Bodywork",
       "title": "High pressure, nothing left to chance",
-      "text": "A pre-wash to loosen mud and insects, a foaming brush for the bodywork, then a thorough rinse. The machines deliver a strong, steady jet, and the bays are wide enough to walk all the way round the car.",
+      "text": "Wheel lance, snow foam cannon, wash with softened hot water, foaming brush, rinse, wax, then a demineralised-water finish so it dries without marks. The bays are wide enough to walk all the way round the car.",
       "cta": "See prices"
     },
     "interieur": {
       "eyebrow": "Interior",
-      "title": "The inside too: vacuums and mats",
-      "text": "Vacuums with real suction, and a machine that brings your mats back to their original colour in a minute. Handy before a long drive, after the beach or at the end of winter.",
+      "title": "The inside too: vacuums, seats and carpets",
+      "text": "Powerful vacuums, a seat and carpet cleaner, a tyre inflator and wipes from the vending machine. Handy before a long drive, after the beach or at the end of winter.",
       "cta": "Directions"
     },
     "pros": {
@@ -200,7 +203,7 @@
       },
       {
         "q": "How do I pay?",
-        "a": "At the pay station, no booking needed. Bank cards and coins are accepted (to be confirmed). The price is shown on each pay station before you start."
+        "a": "At the pay station, by bank card, no booking needed. The price is shown on each pay station before you start. Coins and tokens: to be confirmed."
       },
       {
         "q": "How long should I allow?",
@@ -208,7 +211,7 @@
       },
       {
         "q": "Can I wash a van or a motorhome?",
-        "a": "The bays are wide and suit SUVs and vans. For a tall or very long vehicle, call us before you come and we'll tell you which bay to use."
+        "a": "The high-pressure bays are signed at 3 m high and suit SUVs and vans. The brush gantry takes vehicles up to 2.30 m. For anything taller or very long, call us before you come."
       },
       {
         "q": "A machine isn't working. What should I do?",
@@ -333,5 +336,16 @@
     "back": "Back to home",
     "related": "See also"
   },
-  "alt": {}
+  "alt": {
+    "pistes-abcd-lavage": "The high-pressure wash bays at Autonet 80 by ABCD Lavage in Camon, under the green canopy",
+    "portique-abcd-lavage": "The ABCD Lavage entrance gantry and a high-pressure wash bay in Camon",
+    "ancienne-enseigne-lavage-auto": "Overview of the Autonet car wash in Camon, with its covered bays",
+    "canon-a-mousse-piste": "A car covered in active foam in one of the station's bays",
+    "mousse-active-carrosserie": "Bodywork covered in active foam before the high-pressure rinse",
+    "portique-brosses": "The station's brush wash gantry, with a car being washed",
+    "borne-de-paiement-portique": "The card pay station in front of the wash gantry, maximum height 2.30 m",
+    "aspirateurs-gonfleur": "The station's vacuums, tyre inflator and seat and carpet cleaner",
+    "nettoyeur-sieges-moquettes": "The station's seat and carpet cleaner and wipes vending machine",
+    "microfibre-unsplash-gogonano": "Illustration: a microfibre cloth on the bonnet of a blue car"
+  }
 }

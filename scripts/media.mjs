@@ -12,11 +12,19 @@ const DIRS = ["raw", "hero", "facade", "pistes", "aspirateurs", "tapis", "produi
 
 // [fichier source (depuis assets/), dossier, nom, recadrage { top, bottom, left, right } en pixels retirés]
 const PICKS = [
-  // Exemples, à décommenter quand les photos seront prises :
-  // ["hero/station-de-nuit.jpg", "hero", "station-de-nuit", {}],
-  // ["facade/entree-rue-branly.jpg", "facade", "entree-station", {}],
-  // ["pistes/piste-haute-pression.jpg", "pistes", "piste-haute-pression", {}],
-  // ["aspirateurs/aspirateurs.jpg", "aspirateurs", "aspirateurs", {}],
+  // Photos réelles de la station, fiche Google Maps « Autonet 80 by ABCD LAVAGE » (voir PHOTOS-SOURCES.md)
+  ["hero/pistes-abcd-lavage.jpg", "hero", "pistes-abcd-lavage", {}],
+  ["facade/portique-abcd-lavage.jpg", "facade", "portique-abcd-lavage", {}],
+  // Ancienne enseigne Autonet « Lavage auto 7j/7 24/24 » ; plaque d'immatriculation floutée
+  ["facade/ancienne-enseigne-lavage-auto.jpg", "facade", "ancienne-enseigne-lavage-auto", {}],
+  ["pistes/canon-a-mousse-piste.jpg", "pistes", "canon-a-mousse-piste", {}],
+  ["pistes/mousse-active-carrosserie.jpg", "pistes", "mousse-active-carrosserie", { top: 200, bottom: 200 }],
+  ["pistes/portique-brosses.jpg", "pistes", "portique-brosses", { top: 300, bottom: 600 }],
+  ["pistes/borne-de-paiement-portique.jpg", "pistes", "borne-de-paiement-portique", {}],
+  ["aspirateurs/aspirateurs-gonfleur.jpg", "aspirateurs", "aspirateurs-gonfleur", { top: 250, bottom: 250 }],
+  ["tapis/nettoyeur-sieges-moquettes.jpg", "tapis", "nettoyeur-sieges-moquettes", {}],
+  // Illustration libre de droits (Unsplash), pas une photo de la station
+  ["produits/microfibre-unsplash-gogonano.jpg", "produits", "microfibre-unsplash-gogonano", {}],
 ];
 
 const sizes = {};

@@ -1,11 +1,20 @@
 {
-  "_note": "Emplacements photo du site. null = emplacement élégant en attente (aucune fausse photo). Après avoir lancé npm run media, mettre ici le chemin de la photo, par exemple \"/media/hero/station-de-nuit.jpg\". Ne pas montrer de visages de clients ni de plaques lisibles.",
-  "hero": null,
-  "facade": null,
-  "pistes": null,
-  "aspirateurs": null,
-  "tapis": null,
-  "produits": null,
+  "_note": "Emplacements photo du site. null = emplacement en attente. Chemins générés par npm run media (voir PHOTOS-SOURCES.md pour la source et la licence de chaque image). Ne pas montrer de visages de clients ni de plaques lisibles.",
+  "hero": "/media/hero/pistes-abcd-lavage.jpg",
+  "facade": "/media/facade/portique-abcd-lavage.jpg",
+  "station": "/media/facade/ancienne-enseigne-lavage-auto.jpg",
+  "pistes": "/media/pistes/canon-a-mousse-piste.jpg",
+  "portique": "/media/pistes/borne-de-paiement-portique.jpg",
+  "aspirateurs": "/media/aspirateurs/aspirateurs-gonfleur.jpg",
+  "tapis": "/media/tapis/nettoyeur-sieges-moquettes.jpg",
+  "produits": "/media/produits/microfibre-unsplash-gogonano.jpg",
   "equipe": null,
-  "tiles": { "hp": null, "rouleaux": null, "aspi": null, "tapis": null, "produits": null, "pros": null }
+  "tiles": {
+    "hp": "/media/pistes/mousse-active-carrosserie.jpg",
+    "rouleaux": "/media/pistes/portique-brosses.jpg",
+    "aspi": "/media/aspirateurs/aspirateurs-gonfleur.jpg",
+    "tapis": "/media/tapis/nettoyeur-sieges-moquettes.jpg",
+    "produits": "/media/produits/microfibre-unsplash-gogonano.jpg",
+    "pros": "/media/facade/ancienne-enseigne-lavage-auto.jpg"
+  }
 }

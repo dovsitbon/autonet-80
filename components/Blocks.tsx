@@ -25,8 +25,10 @@ export function Photo({ src, d, className = "", sizes, priority = false }: { src
 export function Slot({ src, d, sizes, className = "", icon, label, priority = false, dark = false, imgClass = "" }: { src: string | null; d: Dict; sizes: string; className?: string; icon?: ReactNode; label?: string; priority?: boolean; dark?: boolean; imgClass?: string }) {
   if (src)
     return (
-      <div className={`overflow-hidden rounded-2xl bg-grey ${className}`}>
+      <div className={`relative overflow-hidden rounded-2xl bg-grey ${className}`}>
         <Photo src={src} d={d} sizes={sizes} priority={priority} className={`size-full object-cover ${imgClass}`} />
+        {/* Image libre de droits : signalée comme illustration, jamais présentée comme la station */}
+        {src.includes("unsplash") && <span className="absolute start-2 bottom-2 rounded-full bg-black/55 px-2 py-0.5 text-[0.6875rem] text-white">{d.slot.illustration}</span>}
       </div>
     );
   return (

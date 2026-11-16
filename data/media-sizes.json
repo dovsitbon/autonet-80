@@ -1,1 +1,42 @@
-{}
+{
+ "/media/hero/pistes-abcd-lavage.jpg": [
+  2000,
+  1500
+ ],
+ "/media/facade/portique-abcd-lavage.jpg": [
+  1600,
+  1200
+ ],
+ "/media/facade/ancienne-enseigne-lavage-auto.jpg": [
+  1600,
+  1200
+ ],
+ "/media/pistes/canon-a-mousse-piste.jpg": [
+  1600,
+  1200
+ ],
+ "/media/pistes/mousse-active-carrosserie.jpg": [
+  1491,
+  1600
+ ],
+ "/media/pistes/portique-brosses.jpg": [
+  1600,
+  1414
+ ],
+ "/media/pistes/borne-de-paiement-portique.jpg": [
+  1206,
+  1358
+ ],
+ "/media/aspirateurs/aspirateurs-gonfleur.jpg": [
+  1536,
+  1548
+ ],
+ "/media/tapis/nettoyeur-sieges-moquettes.jpg": [
+  420,
+  520
+ ],
+ "/media/produits/microfibre-unsplash-gogonano.jpg": [
+  1600,
+  1066
+ ]
+}

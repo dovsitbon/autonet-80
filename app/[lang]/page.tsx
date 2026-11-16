@@ -20,7 +20,7 @@ import { ArrowIcon, BayIcon, BottleIcon, CalendarIcon, CardIcon, CheckIcon, Cloc
 type TileId = keyof Dict["tiles"]["items"];
 const TILES: { id: TileId; icon: ReactNode; hash: string; price?: string; confirm?: boolean }[] = [
   { id: "hp", icon: <JetIcon />, hash: "prix", price: "hp" },
-  { id: "rouleaux", icon: <RollerIcon />, hash: "prix", price: "rouleaux", confirm: true },
+  { id: "rouleaux", icon: <RollerIcon />, hash: "prix", price: "rouleaux" },
   { id: "aspi", icon: <VacuumIcon />, hash: "interieur", price: "aspi" },
   { id: "tapis", icon: <MatIcon />, hash: "interieur", price: "tapis" },
   { id: "produits", icon: <BottleIcon />, hash: "prix", price: "distributeur" },
@@ -51,12 +51,12 @@ function Hero({ lang, d }: { lang: Locale; d: Dict }) {
       {photo ? (
         <div className="absolute inset-0 -z-10">
           <Slot src={photo} d={d} priority sizes="100vw" className="size-full !rounded-none" />
-          <div className="absolute inset-0 bg-navy-deep/55" />
+          <div className="absolute inset-0 bg-navy-deep/60" />
         </div>
       ) : (
         <div className="slot dark absolute inset-0 -z-10 !rounded-none" aria-hidden="true" />
       )}
-      <div className="mx-auto flex min-h-[calc(100svh-6.5rem)] max-w-[90rem] flex-col justify-center px-5 pt-16 pb-36 sm:px-8 lg:min-h-[calc(100svh-7.5rem)] lg:px-10 lg:pe-[46%]">
+      <div className={`mx-auto flex min-h-[calc(100svh-6.5rem)] max-w-[90rem] flex-col justify-center px-5 pt-16 pb-36 sm:px-8 lg:min-h-[calc(100svh-7.5rem)] lg:px-10 ${photo ? "" : "lg:pe-[46%]"}`}>
         <p className="rise text-[0.75rem] font-medium tracking-[0.18em] text-cyan uppercase">{h.eyebrow}</p>
         <h1 id="hero-title" className="display rise mt-6 max-w-[14ch] text-[clamp(2.9rem,8.4vw,7rem)] [animation-delay:0.08s]">
           {h.title}
@@ -290,7 +290,7 @@ function Features({ lang, d }: { lang: Locale; d: Dict }) {
             {b.pros.cta}
           </Link>
         }
-        media={<Slot src={slot("facade")} d={d} sizes="(min-width:768px) 45vw, 100vw" className={box} icon={<VanIcon className="size-14" />} label={d.slot.facade} dark />}
+        media={<Slot src={slot("station")} d={d} sizes="(min-width:768px) 45vw, 100vw" className={box} icon={<VanIcon className="size-14" />} label={d.slot.station} dark />}
       />
     </div>
   );

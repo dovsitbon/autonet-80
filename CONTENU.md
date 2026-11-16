@@ -18,34 +18,35 @@ Voir aussi : [INFOS-A-DEMANDER.md](INFOS-A-DEMANDER.md) et [assets/A-PHOTOGRAPHI
 
 | Programme | Durée | Prix |
 |---|---|---|
-| **Haute pression : prélavage, lavage, rinçage**<br>*High pressure: pre-wash, wash, rinse* | par tranche de temps (à valider) | à remplir |
-| **Canon à mousse active**<br>*Active snow foam* | inclus dans le temps de piste (à valider) | à remplir · **équipement à confirmer** |
+| **Haute pression : eau chaude adoucie + savon**<br>*High pressure: softened hot water + soap* | par tranche de temps (à valider) | à remplir |
+| **Lance jantes**<br>*Wheel lance* | inclus dans le temps de piste (à valider) | à remplir |
+| **Canon à mousse active**<br>*Active snow foam cannon* | inclus dans le temps de piste (à valider) | à remplir |
 | **Brosse moussante**<br>*Foaming brush* | inclus dans le temps de piste (à valider) | à remplir |
-| **Cire et rinçage final sans traces**<br>*Wax and spot-free final rinse* | inclus dans le temps de piste (à valider) | à remplir · **équipement à confirmer** |
-| **Rouleaux ou portique de lavage**<br>*Roller wash or gantry* | env. 6 à 10 min (à valider) | à remplir · **équipement à confirmer** |
+| **Cire, puis finition à l'eau déminéralisée**<br>*Wax, then demineralised-water finish* | inclus dans le temps de piste (à valider) | à remplir |
+| **Portique de lavage à brosses (hauteur max. 2,30 m)**<br>*Brush wash gantry (max. height 2.30 m)* | env. 6 à 10 min (à valider) | à remplir |
 
 ### Intérieur / Inside the car
 
 | Programme | Durée | Prix |
 |---|---|---|
-| **Aspirateur haute puissance**<br>*High-power vacuum* | par tranche de temps (à valider) | à remplir |
-| **Lavage des tapis (machine à tapis)**<br>*Mat washer* | env. 1 min par tapis (à valider) | à remplir |
-| **Souffleur pour les recoins**<br>*Air blower for tight spots* | par tranche de temps (à valider) | à remplir · **équipement à confirmer** |
+| **Aspirateur**<br>*Vacuum* | par tranche de temps (à valider) | à remplir |
+| **Nettoyeur sièges et moquettes**<br>*Seat and carpet cleaner* | par tranche de temps (à valider) | à remplir |
+| **Gonfleur**<br>*Tyre inflator* | — | à remplir |
 
 ### Produits et jetons / Products and tokens
 
 | Programme | Durée | Prix |
 |---|---|---|
-| **Distributeur : microfibres, lingettes, désodorisants**<br>*Vending machine: microfibre cloths, wipes, air fresheners* | — | à remplir · **équipement à confirmer** |
-| **Jetons et carte de lavage**<br>*Tokens and wash card* | — | à remplir · **équipement à confirmer** |
+| **Distributeur : lingettes humidifiées, parfums**<br>*Vending machine: wet wipes, air fresheners* | — | à remplir |
+| **Jetons ou carte de lavage**<br>*Tokens or wash card* | — | à remplir · **équipement à confirmer** |
 
 ### Comparateur : 3 formules
 
 | Formule | Accroche | Durée | Budget | Programmes inclus |
 |---|---|---|---|---|
-| **Rapide** / Quick | Le coup de propre de la semaine. | env. 5 min (à valider) | à remplir | Haute pression : prélavage, lavage, rinçage |
-| **Complet** / Full | Carrosserie et habitacle, le bon équilibre. | env. 15 min (à valider) | à remplir | Haute pression : prélavage, lavage, rinçage, Brosse moussante, Aspirateur haute puissance |
-| **Premium** / Premium | Le grand soin, tapis compris. | env. 25 min (à valider) | à remplir | Haute pression : prélavage, lavage, rinçage, Canon à mousse active, Brosse moussante, Cire et rinçage final sans traces, Aspirateur haute puissance, Lavage des tapis (machine à tapis) |
+| **Rapide** / Quick | Le coup de propre de la semaine. | env. 5 min (à valider) | à remplir | Haute pression : eau chaude adoucie + savon |
+| **Complet** / Full | Carrosserie et habitacle, le bon équilibre. | env. 15 min (à valider) | à remplir | Haute pression : eau chaude adoucie + savon, Canon à mousse active, Brosse moussante, Aspirateur |
+| **Premium** / Premium | Le grand soin, tapis compris. | env. 25 min (à valider) | à remplir | Haute pression : eau chaude adoucie + savon, Lance jantes, Canon à mousse active, Brosse moussante, Cire, puis finition à l'eau déminéralisée, Aspirateur, Nettoyeur sièges et moquettes |
 
 ## Horaires (`data/horaires.json`)
 
@@ -136,6 +137,9 @@ Chaque ligne : clé, français, anglais. Les textes marqués **à valider** dema
 | `slot.tapis` | La machine à tapis | The mat washer | |
 | `slot.produits` | Le distributeur | The vending machine | |
 | `slot.equipe` | L'équipe | The team | |
+| `slot.station` | La station | The station | |
+| `slot.portique` | Le portique | The gantry | |
+| `slot.illustration` | Illustration | Illustration | |
 
 ### hero
 
@@ -157,15 +161,15 @@ Chaque ligne : clé, français, anglais. Les textes marqués **à valider** dema
 | `tiles.tbc` | Prix à confirmer | Price to be confirmed | |
 | `tiles.confirm` | Équipement à confirmer | Equipment to be confirmed | |
 | `tiles.items.hp.title` | Haute pression | High pressure | |
-| `tiles.items.hp.text` | Prélavage, lavage et rinçage au jet, sur des pistes larges. | Pre-wash, wash and rinse with the jet, in wide bays. | |
-| `tiles.items.rouleaux.title` | Rouleaux | Roller wash | **à valider (rouleaux ou portique ?)** |
-| `tiles.items.rouleaux.text` | Un lavage automatique quand vous êtes pressé, sans sortir le jet. | An automatic wash for when you're short on time. | **à valider (rouleaux ou portique ?)** |
+| `tiles.items.hp.text` | Jantes, mousse, lavage à l'eau chaude, brosse, rinçage, cire et finition. | Wheels, foam, hot-water wash, brush, rinse, wax and finish. | |
+| `tiles.items.rouleaux.title` | Portique | Portique | **à valider (rouleaux ou portique ?)** |
+| `tiles.items.rouleaux.text` | Le portique à brosses lave la voiture pendant que vous patientez. Hauteur max. 2,30 m. | The brush gantry washes the car while you wait. Max. height 2.30 m. | **à valider (rouleaux ou portique ?)** |
 | `tiles.items.aspi.title` | Aspirateurs | Vacuums | |
 | `tiles.items.aspi.text` | Puissants, avec des embouts pour les sièges et les recoins. | Powerful, with nozzles for seats and tight corners. | |
-| `tiles.items.tapis.title` | Lavage des tapis | Mat washer | |
-| `tiles.items.tapis.text` | La machine brosse et rince vos tapis en caoutchouc ou en moquette. | Scrubs and rinses rubber and carpet mats in a minute. | |
+| `tiles.items.tapis.title` | Sièges et moquettes | Seats and carpets | |
+| `tiles.items.tapis.text` | Un nettoyeur pour les sièges, les moquettes et les tapis en tissu. | A cleaner for seats, carpets and fabric mats. | |
 | `tiles.items.produits.title` | Produits | Products | **à valider (contenu du distributeur)** |
-| `tiles.items.produits.text` | Microfibres, lingettes et désodorisants au distributeur. | Microfibre cloths, wipes and air fresheners from the machine. | **à valider (contenu du distributeur)** |
+| `tiles.items.produits.text` | Lingettes humidifiées et parfums au distributeur. | Wet wipes and air fresheners from the vending machine. | **à valider (contenu du distributeur)** |
 | `tiles.items.pros.title` | Pros et flottes | Business fleets | **à valider (offre pro)** |
 | `tiles.items.pros.text` | Utilitaires, taxis, VTC, auto-écoles : parlons de vos véhicules. | Vans, taxis, ride-hailing, driving schools: let's talk. | **à valider (offre pro)** |
 
@@ -179,7 +183,7 @@ Chaque ligne : clé, français, anglais. Les textes marqués **à valider** dema
 | `strip.items.1.title` | 7 j/7 | 7 days | |
 | `strip.items.1.text` | Dimanches et jours fériés compris. | Sundays and bank holidays included. | |
 | `strip.items.2.title` | Paiement CB | Card payment | **à valider (moyens de paiement)** |
-| `strip.items.2.text` | Carte bancaire et pièces, sans rendez-vous. À confirmer. | Bank card and coins, no booking needed. To be confirmed. | **à valider (moyens de paiement)** |
+| `strip.items.2.text` | Carte bancaire à la borne, sans rendez-vous. | Pay by card at the pay station, no booking needed. | **à valider (moyens de paiement)** |
 | `strip.items.3.title` | Grandes pistes | Wide bays | |
 | `strip.items.3.text` | Assez de place pour les SUV et les utilitaires. | Plenty of room for SUVs and vans. | |
 
@@ -212,11 +216,11 @@ Chaque ligne : clé, français, anglais. Les textes marqués **à valider** dema
 |---|---|---|---|
 | `blocks.hp.eyebrow` | Carrosserie | Bodywork | |
 | `blocks.hp.title` | La haute pression, sans rien laisser au hasard | High pressure, nothing left to chance | |
-| `blocks.hp.text` | Prélavage pour décoller la boue et les insectes, brosse moussante pour la carrosserie, rinçage à fond. Les machines sont réglées pour un jet puissant et régulier, et les pistes sont assez larges pour tourner autour de la voiture. | A pre-wash to loosen mud and insects, a foaming brush for the bodywork, then a thorough rinse. The machines deliver a strong, steady jet, and the bays are wide enough to walk all the way round the car. | |
+| `blocks.hp.text` | Lance jantes, canon à mousse, lavage à l'eau chaude adoucie, brosse moussante, rinçage, cire puis finition à l'eau déminéralisée pour sécher sans traces. Les pistes sont assez larges pour tourner autour de la voiture. | Wheel lance, snow foam cannon, wash with softened hot water, foaming brush, rinse, wax, then a demineralised-water finish so it dries without marks. The bays are wide enough to walk all the way round the car. | |
 | `blocks.hp.cta` | Voir les prix | See prices | |
 | `blocks.interieur.eyebrow` | Habitacle | Interior | |
-| `blocks.interieur.title` | L'intérieur aussi : aspirateurs et tapis | The inside too: vacuums and mats | |
-| `blocks.interieur.text` | Des aspirateurs qui aspirent vraiment, et une machine qui rend aux tapis leur couleur d'origine en une minute. Pratique avant un long trajet, après la plage ou à la fin de l'hiver. | Vacuums with real suction, and a machine that brings your mats back to their original colour in a minute. Handy before a long drive, after the beach or at the end of winter. | |
+| `blocks.interieur.title` | L'intérieur aussi : aspirateurs, sièges et moquettes | The inside too: vacuums, seats and carpets | |
+| `blocks.interieur.text` | Des aspirateurs puissants, un nettoyeur pour les sièges et les moquettes, un gonfleur pour les pneus et des lingettes au distributeur. Pratique avant un long trajet, après la plage ou à la fin de l'hiver. | Powerful vacuums, a seat and carpet cleaner, a tyre inflator and wipes from the vending machine. Handy before a long drive, after the beach or at the end of winter. | |
 | `blocks.interieur.cta` | Itinéraire | Directions | |
 | `blocks.pros.eyebrow` | Professionnels | Business | **à valider (offre pro)** |
 | `blocks.pros.title` | Pour les flottes et les utilitaires | For fleets and vans | **à valider (offre pro)** |
@@ -264,11 +268,11 @@ Chaque ligne : clé, français, anglais. Les textes marqués **à valider** dema
 | `faq.items.0.q` | La station est-elle vraiment ouverte la nuit ? | Is the station really open at night? | |
 | `faq.items.0.a` | Oui, Autonet 80 est en libre-service 24 h/24 et 7 j/7, dimanches et jours fériés compris. Si une piste est fermée pour entretien, nous l'annonçons en haut de ce site. | Yes, Autonet 80 is self-service 24 hours a day, 7 days a week, Sundays and bank holidays included. If a bay is closed for maintenance, we post it at the top of this site. | |
 | `faq.items.1.q` | Comment paie-t-on ? | How do I pay? | **à valider (moyens de paiement)** |
-| `faq.items.1.a` | Directement à la borne, sans rendez-vous. La carte bancaire et les pièces sont acceptées (à confirmer). Le tarif est affiché sur chaque borne avant le lancement. | At the pay station, no booking needed. Bank cards and coins are accepted (to be confirmed). The price is shown on each pay station before you start. | **à valider (moyens de paiement)** |
+| `faq.items.1.a` | Directement à la borne de paiement, par carte bancaire, sans rendez-vous. Le tarif est affiché sur chaque borne avant le lancement. Pièces et jetons : à confirmer. | At the pay station, by bank card, no booking needed. The price is shown on each pay station before you start. Coins and tokens: to be confirmed. | **à valider (moyens de paiement)** |
 | `faq.items.2.q` | Combien de temps faut-il prévoir ? | How long should I allow? | **à valider (durées)** |
 | `faq.items.2.a` | Comptez environ 5 minutes pour un passage rapide à la haute pression, 15 minutes pour un lavage complet avec aspirateur, et 25 minutes si vous lavez aussi les tapis. | About 5 minutes for a quick high-pressure wash, 15 minutes for a full wash with vacuuming, and 25 minutes if you also wash the mats. | **à valider (durées)** |
 | `faq.items.3.q` | Peut-on laver un utilitaire ou un camping-car ? | Can I wash a van or a motorhome? | **à valider (gabarits acceptés)** |
-| `faq.items.3.a` | Les pistes sont larges et conviennent aux SUV et aux utilitaires. Pour un véhicule haut ou très long, appelez-nous avant de venir : nous vous dirons quelle piste utiliser. | The bays are wide and suit SUVs and vans. For a tall or very long vehicle, call us before you come and we'll tell you which bay to use. | **à valider (gabarits acceptés)** |
+| `faq.items.3.a` | Les pistes haute pression sont signalées à 3 m de hauteur et conviennent aux SUV et aux utilitaires. Le portique à brosses accepte les véhicules jusqu'à 2,30 m. Pour un véhicule plus haut ou très long, appelez-nous avant de venir. | The high-pressure bays are signed at 3 m high and suit SUVs and vans. The brush gantry takes vehicles up to 2.30 m. For anything taller or very long, call us before you come. | **à valider (gabarits acceptés)** |
 | `faq.items.4.q` | Une machine ne fonctionne pas, que faire ? | A machine isn't working. What should I do? | |
 | `faq.items.4.a` | Signalez-le en un clic avec le formulaire de contact (motif « Panne d'une machine ») ou par WhatsApp, en précisant la piste ou la borne. Nous intervenons au plus vite. | Report it in one click with the contact form (reason: “Machine fault”) or on WhatsApp, saying which bay or pay station. We'll sort it out as quickly as we can. | |
 | `faq.items.5.q` | Proposez-vous des tarifs pour les professionnels ? | Do you have rates for businesses? | **à valider (offre pro)** |
@@ -372,3 +376,13 @@ Chaque ligne : clé, français, anglais. Les textes marqués **à valider** dema
 
 | Photo | Français | English |
 |---|---|---|
+| pistes-abcd-lavage | Les pistes de lavage haute pression de la station Autonet 80 by ABCD Lavage à Camon, sous l'auvent vert | The high-pressure wash bays at Autonet 80 by ABCD Lavage in Camon, under the green canopy |
+| portique-abcd-lavage | Le portique d'entrée ABCD Lavage et une piste de lavage haute pression à Camon | The ABCD Lavage entrance gantry and a high-pressure wash bay in Camon |
+| ancienne-enseigne-lavage-auto | Vue d'ensemble de la station de lavage Autonet à Camon, avec les pistes couvertes | Overview of the Autonet car wash in Camon, with its covered bays |
+| canon-a-mousse-piste | Une voiture couverte de mousse active sur une piste de la station | A car covered in active foam in one of the station's bays |
+| mousse-active-carrosserie | Carrosserie couverte de mousse active avant le rinçage haute pression | Bodywork covered in active foam before the high-pressure rinse |
+| portique-brosses | Le portique de lavage à brosses de la station, une voiture en cours de lavage | The station's brush wash gantry, with a car being washed |
+| borne-de-paiement-portique | La borne de paiement par carte devant le portique de lavage, hauteur maximale 2,30 m | The card pay station in front of the wash gantry, maximum height 2.30 m |
+| aspirateurs-gonfleur | Les aspirateurs, le gonfleur et le nettoyeur sièges et moquettes de la station | The station's vacuums, tyre inflator and seat and carpet cleaner |
+| nettoyeur-sieges-moquettes | Le nettoyeur sièges et moquettes et le distributeur de lingettes de la station | The station's seat and carpet cleaner and wipes vending machine |
+| microfibre-unsplash-gogonano | Illustration : une microfibre posée sur le capot d'une voiture bleue | Illustration: a microfibre cloth on the bonnet of a blue car |

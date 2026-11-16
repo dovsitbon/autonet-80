@@ -9,15 +9,15 @@ Tout ce qui est marqué « à remplir » ou « à confirmer » sur le site vient
 
 ## Équipements et prix (`data/prix.json`)
 - [ ] Nombre de pistes haute pression et leur gabarit (SUV, utilitaires, camping-cars ?).
-- [ ] Rouleaux ou portique : y en a-t-il un ? Sinon, retirer la tuile.
-- [ ] Programmes de la borne : prélavage, mousse active, brosse, cire, rinçage à l'eau osmosée ?
+- [x] Portique à brosses (Istobal, hauteur max. 2,30 m) : vu sur les photos Google. Prix et durée à donner.
+- [x] Programmes (panneau « Conseils d'utilisation ») : jantes, canon à mousse, lavage eau chaude adoucie, brosse, rinçage, cire, finition eau déminéralisée.
 - [ ] Prix de chaque programme (prix à la minute, par jeton, montant minimum).
-- [ ] Aspirateurs (nombre, prix), machine à tapis, souffleur, gonfleur ?
+- [ ] Aspirateurs, nettoyeur sièges et moquettes, gonfleur (vus sur les photos) : nombre et prix. Y a-t-il aussi une machine à laver les tapis caoutchouc ?
 - [ ] Contenu et prix du distributeur de produits.
 - [ ] Valider les durées indicatives des 3 formules (5, 15 et 25 min).
 
 ## Paiement
-- [ ] Carte bancaire, sans contact, pièces, billets, jetons, carte de lavage prépayée ?
+- [ ] Carte bancaire à la borne : vue sur les photos. Pièces, billets, jetons, carte de lavage prépayée ?
 
 ## Professionnels et flottes
 - [ ] Existe-t-il une offre pro (cartes prépayées, facture mensuelle, remise au volume) ?
@@ -35,5 +35,6 @@ Tout ce qui est marqué « à remplir » ou « à confirmer » sur le site vient
 
 ## Visuels
 - [ ] Le logo (fichier vectoriel si possible). En attendant, le site utilise un logo provisoire : `public/logo.svg` et `app/icon.svg`.
-- [ ] Les photos de la station : voir [assets/A-PHOTOGRAPHIER.md](assets/A-PHOTOGRAPHIER.md).
+- [ ] Photos : le site utilise 9 photos de la fiche Google (voir [PHOTOS-SOURCES.md](PHOTOS-SOURCES.md)). Faire valider leur usage, ou les remplacer par des photos prises sur place ([assets/A-PHOTOGRAPHIER.md](assets/A-PHOTOGRAPHIER.md)), surtout une photo de nuit pour le hero.
+- [ ] Couleurs : l'enseigne actuelle est verte (ABCD LAVAGE), le site est en bleu eau. Garder le bleu ou passer au vert de l'enseigne ?
 - [ ] Accord pour reprendre quelques vrais avis Google sur le site (`data/avis.json`).

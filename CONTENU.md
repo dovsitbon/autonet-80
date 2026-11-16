@@ -73,7 +73,7 @@ Chaque ligne : clé, français, anglais. Les textes marqués **à valider** dema
 | Clé | Français | English | |
 |---|---|---|---|
 | `meta.title` | Station de lavage 24 h/24 à Camon, près d'Amiens | Autonet 80 | 24-hour car wash in Camon, near Amiens | Autonet 80 | |
-| `meta.description` | Station de lavage auto ouverte 24 h/24, 7 j/7 à Camon, à 10 minutes d'Amiens : haute pression, brosse, aspirateurs, lavage des tapis. 4,5/5 sur Google. | Self-service car wash open 24/7 in Camon, 10 minutes from Amiens: high-pressure jet wash, foaming brush, vacuums, mat washer. Rated 4.5/5 on Google. | |
+| `meta.description` | Station de lavage auto ouverte 24 h/24, 7 j/7 à Camon, à 10 minutes d'Amiens : haute pression, portique, aspirateurs, nettoyeur sièges et moquettes. 4,5/5 sur Google. | Self-service car wash open 24/7 in Camon, 10 minutes from Amiens: high-pressure jet wash, brush gantry, vacuums, seat and carpet cleaner. Rated 4.5/5 on Google. | |
 | `meta.ogAlt` | Autonet 80, station de lavage 24 h/24 à Camon | Autonet 80, 24-hour car wash in Camon | |
 
 ### nav
@@ -134,7 +134,7 @@ Chaque ligne : clé, français, anglais. Les textes marqués **à valider** dema
 | `slot.facade` | L'entrée de la station | The station entrance | |
 | `slot.pistes` | Les pistes de lavage | The wash bays | |
 | `slot.aspirateurs` | Les aspirateurs | The vacuums | |
-| `slot.tapis` | La machine à tapis | The mat washer | |
+| `slot.tapis` | Le nettoyeur sièges et moquettes | The seat and carpet cleaner | |
 | `slot.produits` | Le distributeur | The vending machine | |
 | `slot.equipe` | L'équipe | The team | |
 | `slot.station` | La station | The station | |
@@ -147,7 +147,7 @@ Chaque ligne : clé, français, anglais. Les textes marqués **à valider** dema
 |---|---|---|---|
 | `hero.eyebrow` | Station de lavage · 24 h/24 · Camon | Car wash · 24 hours · Camon | |
 | `hero.title` | Une voiture propre, à toute heure | A clean car, any time of day | |
-| `hero.lead` | Haute pression, brosse, aspirateurs et machine à tapis, en libre-service jour et nuit, à dix minutes du centre d'Amiens. | High-pressure jet wash, foaming brush, vacuums and a mat washer, self-service day and night, ten minutes from central Amiens. | |
+| `hero.lead` | Haute pression, portique à brosses, aspirateurs et nettoyeur de sièges, en libre-service jour et nuit, à dix minutes du centre d'Amiens. | High-pressure jet wash, brush gantry, vacuums and a seat cleaner, self-service day and night, ten minutes from central Amiens. | |
 | `hero.itineraire` | Itinéraire | Directions | |
 | `hero.prix` | Voir les prix | See prices | |
 
@@ -270,7 +270,7 @@ Chaque ligne : clé, français, anglais. Les textes marqués **à valider** dema
 | `faq.items.1.q` | Comment paie-t-on ? | How do I pay? | **à valider (moyens de paiement)** |
 | `faq.items.1.a` | Directement à la borne de paiement, par carte bancaire, sans rendez-vous. Le tarif est affiché sur chaque borne avant le lancement. Pièces et jetons : à confirmer. | At the pay station, by bank card, no booking needed. The price is shown on each pay station before you start. Coins and tokens: to be confirmed. | **à valider (moyens de paiement)** |
 | `faq.items.2.q` | Combien de temps faut-il prévoir ? | How long should I allow? | **à valider (durées)** |
-| `faq.items.2.a` | Comptez environ 5 minutes pour un passage rapide à la haute pression, 15 minutes pour un lavage complet avec aspirateur, et 25 minutes si vous lavez aussi les tapis. | About 5 minutes for a quick high-pressure wash, 15 minutes for a full wash with vacuuming, and 25 minutes if you also wash the mats. | **à valider (durées)** |
+| `faq.items.2.a` | Comptez environ 5 minutes pour un passage rapide à la haute pression, 15 minutes pour un lavage complet avec aspirateur, et 25 minutes si vous nettoyez aussi les sièges et les moquettes. | About 5 minutes for a quick high-pressure wash, 15 minutes for a full wash with vacuuming, and 25 minutes if you also clean the seats and carpets. | **à valider (durées)** |
 | `faq.items.3.q` | Peut-on laver un utilitaire ou un camping-car ? | Can I wash a van or a motorhome? | **à valider (gabarits acceptés)** |
 | `faq.items.3.a` | Les pistes haute pression sont signalées à 3 m de hauteur et conviennent aux SUV et aux utilitaires. Le portique à brosses accepte les véhicules jusqu'à 2,30 m. Pour un véhicule plus haut ou très long, appelez-nous avant de venir. | The high-pressure bays are signed at 3 m high and suit SUVs and vans. The brush gantry takes vehicles up to 2.30 m. For anything taller or very long, call us before you come. | **à valider (gabarits acceptés)** |
 | `faq.items.4.q` | Une machine ne fonctionne pas, que faire ? | A machine isn't working. What should I do? | |
@@ -329,19 +329,19 @@ Chaque ligne : clé, français, anglais. Les textes marqués **à valider** dema
 |---|---|---|---|
 | `pages.camon.slugLabel` | Station de lavage à Camon | Car wash in Camon | |
 | `pages.camon.metaTitle` | Station de lavage à Camon (80450) | Autonet 80 | Car wash in Camon (80450) | Autonet 80 | |
-| `pages.camon.metaDescription` | Autonet 80, la station de lavage auto de Camon : haute pression, brosse, aspirateurs, machine à tapis. Ouvert 24 h/24, 424 rue Édouard Branly. | Autonet 80, the self-service car wash in Camon: high-pressure jet wash, foaming brush, vacuums, mat washer. Open 24/7, 424 rue Édouard Branly. | |
+| `pages.camon.metaDescription` | Autonet 80, la station de lavage auto de Camon : haute pression, portique, aspirateurs, nettoyeur sièges et moquettes. Ouvert 24 h/24, 424 rue Édouard Branly. | Autonet 80, the self-service car wash in Camon: high-pressure jet wash, brush gantry, vacuums, seat and carpet cleaner. Open 24/7, 424 rue Édouard Branly. | |
 | `pages.camon.eyebrow` | Camon · 80450 | Camon · 80450 | |
 | `pages.camon.h1` | Station de lavage à Camon | Car wash in Camon | |
 | `pages.camon.intro` | Autonet 80 est la station de lavage en libre-service de Camon, rue Édouard Branly. Vous lavez vous-même, à votre rythme, avec des machines entretenues et des prix affichés. | Autonet 80 is the self-service car wash in Camon, on rue Édouard Branly. You wash the car yourself, at your own pace, with well-kept machines and clearly displayed prices. | |
 | `pages.camon.sections.0.h` | Ce que vous trouvez sur place | What you'll find on site | |
-| `pages.camon.sections.0.p` | Des pistes de lavage haute pression avec prélavage, brosse moussante et rinçage, des aspirateurs puissants, une machine à laver les tapis et un distributeur de produits d'entretien. | High-pressure wash bays with pre-wash, foaming brush and rinse, powerful vacuums, a mat washer and a vending machine for cleaning products. | |
+| `pages.camon.sections.0.p` | Des pistes de lavage haute pression avec lance jantes, canon à mousse, brosse moussante, rinçage, cire et finition à l'eau déminéralisée, un portique à brosses, des aspirateurs, un nettoyeur sièges et moquettes, un gonfleur et un distributeur de lingettes et de parfums. | High-pressure wash bays with wheel lance, snow foam, foaming brush, rinse, wax and a demineralised-water finish, a brush gantry, vacuums, a seat and carpet cleaner, a tyre inflator and a wipes and air freshener vending machine. | |
 | `pages.camon.sections.1.h` | Facile d'accès depuis Camon et Rivery | Easy to reach from Camon and Rivery | **à valider (accès)** |
 | `pages.camon.sections.1.p` | La station se trouve dans la zone d'activités de Camon, avec un accès direct en voiture. Les pistes sont larges, et les aspirateurs ont leurs propres emplacements pour ne pas bloquer ceux qui lavent. | The station is in the Camon business park, with direct access by car. The bays are wide, and the vacuums have their own spots so nobody blocks the wash bays. | **à valider (accès)** |
 | `pages.camon.sections.2.h` | Ouverte à toute heure | Open at any hour | |
 | `pages.camon.sections.2.p` | Pas d'horaires à retenir : la station est ouverte 24 h/24 et 7 j/7. Le soir et tôt le matin, il y a rarement de l'attente. | No opening hours to remember: the station is open 24/7. In the evening and early morning there's rarely a queue. | |
 | `pages.h24.slugLabel` | Lavage 24 h/24 près d'Amiens | 24-hour car wash near Amiens | |
 | `pages.h24.metaTitle` | Lavage voiture 24 h/24 près d'Amiens | Autonet 80 | 24-hour car wash near Amiens | Autonet 80 | |
-| `pages.h24.metaDescription` | Lavage auto haute pression ouvert 24 h/24 et 7 j/7 près d'Amiens, à Camon. Aspirateurs, tapis, brosse. 4,5/5 sur Google, 91 avis. | High-pressure car wash open 24/7 near Amiens, in Camon. Vacuums, mat washer, foaming brush. Rated 4.5/5 on Google from 91 reviews. | |
+| `pages.h24.metaDescription` | Lavage auto haute pression ouvert 24 h/24 et 7 j/7 près d'Amiens, à Camon. Portique, aspirateurs, brosse. 4,5/5 sur Google, 91 avis. | High-pressure car wash open 24/7 near Amiens, in Camon. Brush gantry, vacuums, foaming brush. Rated 4.5/5 on Google from 91 reviews. | |
 | `pages.h24.eyebrow` | Amiens · 24 h/24 | Amiens · 24 hours | |
 | `pages.h24.h1` | Lavage voiture 24 h/24 près d'Amiens | 24-hour car wash near Amiens | |
 | `pages.h24.intro` | Besoin de laver votre voiture tard le soir ou un dimanche matin ? Autonet 80, à Camon, est ouverte jour et nuit, à une dizaine de minutes du centre d'Amiens. | Need to wash the car late at night or on a Sunday morning? Autonet 80 in Camon is open day and night, about ten minutes from central Amiens. | |

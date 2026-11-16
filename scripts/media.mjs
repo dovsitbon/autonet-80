@@ -52,7 +52,7 @@ if (hero) {
   </g>
   <text x="96" y="380" font-family="Arial Black, Arial, sans-serif" font-weight="900" font-style="italic" font-size="96" fill="#fff">AUTONET <tspan fill="#36C2D8">80</tspan></text>
   <text x="100" y="440" font-family="Arial, sans-serif" font-size="34" fill="#ffffff" fill-opacity="0.85">Station de lavage 24 h/24 · Camon, près d'Amiens</text>
-  <text x="100" y="530" font-family="Arial, sans-serif" font-size="24" fill="#36C2D8">Haute pression · Brosse · Aspirateurs · Tapis</text>
+  <text x="100" y="530" font-family="Arial, sans-serif" font-size="24" fill="#36C2D8">Haute pression · Portique · Aspirateurs · Sièges</text>
 </svg>`;
   await sharp(Buffer.from(svg)).jpeg({ quality: 88 }).toFile(path.join(ROOT, "public/og.jpg"));
 }

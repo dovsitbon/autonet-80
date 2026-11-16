@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Station de lavage 24 h/24 à Camon, près d'Amiens | Autonet 80",
-    "description": "Station de lavage auto ouverte 24 h/24, 7 j/7 à Camon, à 10 minutes d'Amiens : haute pression, brosse, aspirateurs, lavage des tapis. 4,5/5 sur Google.",
+    "description": "Station de lavage auto ouverte 24 h/24, 7 j/7 à Camon, à 10 minutes d'Amiens : haute pression, portique, aspirateurs, nettoyeur sièges et moquettes. 4,5/5 sur Google.",
     "ogAlt": "Autonet 80, station de lavage 24 h/24 à Camon"
   },
   "nav": {
@@ -53,7 +53,7 @@
     "facade": "L'entrée de la station",
     "pistes": "Les pistes de lavage",
     "aspirateurs": "Les aspirateurs",
-    "tapis": "La machine à tapis",
+    "tapis": "Le nettoyeur sièges et moquettes",
     "produits": "Le distributeur",
     "equipe": "L'équipe",
     "station": "La station",
@@ -63,7 +63,7 @@
   "hero": {
     "eyebrow": "Station de lavage · 24 h/24 · Camon",
     "title": "Une voiture propre, à toute heure",
-    "lead": "Haute pression, brosse, aspirateurs et machine à tapis, en libre-service jour et nuit, à dix minutes du centre d'Amiens.",
+    "lead": "Haute pression, portique à brosses, aspirateurs et nettoyeur de sièges, en libre-service jour et nuit, à dix minutes du centre d'Amiens.",
     "itineraire": "Itinéraire",
     "prix": "Voir les prix"
   },
@@ -207,7 +207,7 @@
       },
       {
         "q": "Combien de temps faut-il prévoir ?",
-        "a": "Comptez environ 5 minutes pour un passage rapide à la haute pression, 15 minutes pour un lavage complet avec aspirateur, et 25 minutes si vous lavez aussi les tapis."
+        "a": "Comptez environ 5 minutes pour un passage rapide à la haute pression, 15 minutes pour un lavage complet avec aspirateur, et 25 minutes si vous nettoyez aussi les sièges et les moquettes."
       },
       {
         "q": "Peut-on laver un utilitaire ou un camping-car ?",
@@ -270,14 +270,14 @@
     "camon": {
       "slugLabel": "Station de lavage à Camon",
       "metaTitle": "Station de lavage à Camon (80450) | Autonet 80",
-      "metaDescription": "Autonet 80, la station de lavage auto de Camon : haute pression, brosse, aspirateurs, machine à tapis. Ouvert 24 h/24, 424 rue Édouard Branly.",
+      "metaDescription": "Autonet 80, la station de lavage auto de Camon : haute pression, portique, aspirateurs, nettoyeur sièges et moquettes. Ouvert 24 h/24, 424 rue Édouard Branly.",
       "eyebrow": "Camon · 80450",
       "h1": "Station de lavage à Camon",
       "intro": "Autonet 80 est la station de lavage en libre-service de Camon, rue Édouard Branly. Vous lavez vous-même, à votre rythme, avec des machines entretenues et des prix affichés.",
       "sections": [
         {
           "h": "Ce que vous trouvez sur place",
-          "p": "Des pistes de lavage haute pression avec prélavage, brosse moussante et rinçage, des aspirateurs puissants, une machine à laver les tapis et un distributeur de produits d'entretien."
+          "p": "Des pistes de lavage haute pression avec lance jantes, canon à mousse, brosse moussante, rinçage, cire et finition à l'eau déminéralisée, un portique à brosses, des aspirateurs, un nettoyeur sièges et moquettes, un gonfleur et un distributeur de lingettes et de parfums."
         },
         {
           "h": "Facile d'accès depuis Camon et Rivery",
@@ -292,7 +292,7 @@
     "h24": {
       "slugLabel": "Lavage 24 h/24 près d'Amiens",
       "metaTitle": "Lavage voiture 24 h/24 près d'Amiens | Autonet 80",
-      "metaDescription": "Lavage auto haute pression ouvert 24 h/24 et 7 j/7 près d'Amiens, à Camon. Aspirateurs, tapis, brosse. 4,5/5 sur Google, 91 avis.",
+      "metaDescription": "Lavage auto haute pression ouvert 24 h/24 et 7 j/7 près d'Amiens, à Camon. Portique, aspirateurs, brosse. 4,5/5 sur Google, 91 avis.",
       "eyebrow": "Amiens · 24 h/24",
       "h1": "Lavage voiture 24 h/24 près d'Amiens",
       "intro": "Besoin de laver votre voiture tard le soir ou un dimanche matin ? Autonet 80, à Camon, est ouverte jour et nuit, à une dizaine de minutes du centre d'Amiens.",

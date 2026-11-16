@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "24-hour car wash in Camon, near Amiens | Autonet 80",
-    "description": "Self-service car wash open 24/7 in Camon, 10 minutes from Amiens: high-pressure jet wash, foaming brush, vacuums, mat washer. Rated 4.5/5 on Google.",
+    "description": "Self-service car wash open 24/7 in Camon, 10 minutes from Amiens: high-pressure jet wash, brush gantry, vacuums, seat and carpet cleaner. Rated 4.5/5 on Google.",
     "ogAlt": "Autonet 80, 24-hour car wash in Camon"
   },
   "nav": {
@@ -53,7 +53,7 @@
     "facade": "The station entrance",
     "pistes": "The wash bays",
     "aspirateurs": "The vacuums",
-    "tapis": "The mat washer",
+    "tapis": "The seat and carpet cleaner",
     "produits": "The vending machine",
     "equipe": "The team",
     "station": "The station",
@@ -63,7 +63,7 @@
   "hero": {
     "eyebrow": "Car wash · 24 hours · Camon",
     "title": "A clean car, any time of day",
-    "lead": "High-pressure jet wash, foaming brush, vacuums and a mat washer, self-service day and night, ten minutes from central Amiens.",
+    "lead": "High-pressure jet wash, brush gantry, vacuums and a seat cleaner, self-service day and night, ten minutes from central Amiens.",
     "itineraire": "Directions",
     "prix": "See prices"
   },
@@ -207,7 +207,7 @@
       },
       {
         "q": "How long should I allow?",
-        "a": "About 5 minutes for a quick high-pressure wash, 15 minutes for a full wash with vacuuming, and 25 minutes if you also wash the mats."
+        "a": "About 5 minutes for a quick high-pressure wash, 15 minutes for a full wash with vacuuming, and 25 minutes if you also clean the seats and carpets."
       },
       {
         "q": "Can I wash a van or a motorhome?",
@@ -270,14 +270,14 @@
     "camon": {
       "slugLabel": "Car wash in Camon",
       "metaTitle": "Car wash in Camon (80450) | Autonet 80",
-      "metaDescription": "Autonet 80, the self-service car wash in Camon: high-pressure jet wash, foaming brush, vacuums, mat washer. Open 24/7, 424 rue Édouard Branly.",
+      "metaDescription": "Autonet 80, the self-service car wash in Camon: high-pressure jet wash, brush gantry, vacuums, seat and carpet cleaner. Open 24/7, 424 rue Édouard Branly.",
       "eyebrow": "Camon · 80450",
       "h1": "Car wash in Camon",
       "intro": "Autonet 80 is the self-service car wash in Camon, on rue Édouard Branly. You wash the car yourself, at your own pace, with well-kept machines and clearly displayed prices.",
       "sections": [
         {
           "h": "What you'll find on site",
-          "p": "High-pressure wash bays with pre-wash, foaming brush and rinse, powerful vacuums, a mat washer and a vending machine for cleaning products."
+          "p": "High-pressure wash bays with wheel lance, snow foam, foaming brush, rinse, wax and a demineralised-water finish, a brush gantry, vacuums, a seat and carpet cleaner, a tyre inflator and a wipes and air freshener vending machine."
         },
         {
           "h": "Easy to reach from Camon and Rivery",
@@ -292,7 +292,7 @@
     "h24": {
       "slugLabel": "24-hour car wash near Amiens",
       "metaTitle": "24-hour car wash near Amiens | Autonet 80",
-      "metaDescription": "High-pressure car wash open 24/7 near Amiens, in Camon. Vacuums, mat washer, foaming brush. Rated 4.5/5 on Google from 91 reviews.",
+      "metaDescription": "High-pressure car wash open 24/7 near Amiens, in Camon. Brush gantry, vacuums, foaming brush. Rated 4.5/5 on Google from 91 reviews.",
       "eyebrow": "Amiens · 24 hours",
       "h1": "24-hour car wash near Amiens",
       "intro": "Need to wash the car late at night or on a Sunday morning? Autonet 80 in Camon is open day and night, about ten minutes from central Amiens.",

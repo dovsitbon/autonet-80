@@ -57,7 +57,7 @@ center("OUVERT 24 H/24 · 7 J/7", boldUp, 17, y, WHITE, 1.2);
 y = H - topH - 46;
 center("Une voiture propre, à toute heure.", bold, 18, y, NAVY);
 y -= 20;
-center("Haute pression · Brosse · Aspirateurs · Tapis", sans, 10.5, y, MUTED);
+center("Haute pression · Portique · Aspirateurs · Sièges", sans, 10.5, y, MUTED);
 
 const qrPng = await QRCode.toBuffer(url, { margin: 0, width: 600, color: { dark: "#10243E", light: "#FFFFFF" }, errorCorrectionLevel: "M" });
 const qr = await pdf.embedPng(qrPng);
